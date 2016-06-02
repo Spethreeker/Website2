@@ -242,6 +242,12 @@ a {
 a:hover {
   color: #222324;
 }
+.service a:hover{
+color:#fff;
+}
+.topbar{
+  background-color: black;
+}
 
 code {
   background: #f5f7fa;
@@ -1062,6 +1068,9 @@ a.container{
   border-color: transparent;
   color: white;
 
+}
+a.notification.is-info.service{
+ : inherit;
 }
 
 .button.is-info.is-inverted:hover, .pagination a.is-info.is-inverted:hover {
@@ -4941,6 +4950,14 @@ a.nav-item.is-tab {
   border-top: 1px solid transparent;
   padding-left: 12px;
   padding-right: 12px;
+}
+a.nav-item.is-tab.is-success{
+background-color:#97cd76;
+border-radius: 2px;
+color: #fff;
+line-height: 24px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .nav-item a.is-tab:hover,
