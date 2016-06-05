@@ -1069,8 +1069,10 @@ a.container{
   color: white;
 
 }
-a.notification.is-info.service{
- : inherit;
+.notification.is-success.phone:hover{
+ background: #7bbf51;
+ border-color: transparent;
+  color: white;
 }
 
 .button.is-info.is-inverted:hover, .pagination a.is-info.is-inverted:hover {
@@ -2187,6 +2189,9 @@ a.notification.is-info.service{
 .notification.is-danger {
   background: #ed6c63;
   color: white;
+}
+.desc{
+  color: black;
 }
 
 .progress {
