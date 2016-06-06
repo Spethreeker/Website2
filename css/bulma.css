@@ -1070,7 +1070,12 @@ a.container{
 
 }
 .notification.is-success.phone:hover{
- background: #7bbf51;
+ background: #97cd76;
+ border-color: transparent;
+  color: white;
+}
+.notification.is-success.phone{
+  background: #7bbf51;
  border-color: transparent;
   color: white;
 }
@@ -4973,9 +4978,9 @@ a.nav-item.is-tab:hover {
 
 .nav-item a.is-tab.is-active,
 a.nav-item.is-tab.is-active {
-  border-bottom: 3px solid #1fc8db;
+  border-bottom: 3px solid #97cd76;
   border-top: 3px solid transparent;
-  color: #1fc8db;
+  color: #97cd76;
 }
 
 @media screen and (max-width: 768px) {

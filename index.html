@@ -6,9 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Protech LLC - Professional computer and security system repair and service.</title>
 		<link rel="stylesheet" href="css/bulma.css" media="screen" title="no title" charset="utf-8">
-		<link rel="stylesheet" href="css/font-awesome.css" media="screen" title="no title">
+		<link rel="icon" type="image/png" href="images/logos/32x32.png">
 		<script src="https://use.fontawesome.com/dc54be7162.js"></script>
-		<script src="main.js"></script>
 	</head>
 	<body>
 		<section class="hero">
@@ -18,58 +17,55 @@
 		<div class="hero-foot">
 		<nav class="nav is-shadowed is-overlay">
 			<div class="nav-right nav-menu" id="navbar">
-				<a class="nav-item is-tab is-active">Home</a>
-				<a class="nav-item is-tab">Services</a>
+				<a class="nav-item is-tab">Home</a>
+				<a class="nav-item is-tab is-active">Services</a>
 				<a class="nav-item is-tab">Our Location</a>
 				<a class="nav-item  is-tab is-success">Contact Us</a>
 			</div>
-			<div class="nav-toggle is-centered">
+			<div class="nav-toggle is-centered" onclick="navtoggle()">
 			<span></span>
 			<span></span>
 			<span></span>
-
 				</div>
 		</nav>
 		</div>
-
 		</section>
-		<span></span>
-		<span></span>
 <div class="container">
 	<div class="container notification ">
 		<div class="box">
 			<article class="container has-text-centered	notification is-white">
-				<p class="title is-3">Computer Repair & Service</p>
+				<p class="title">Computer Repair & Service</p>
 				<p class="subtitle">We work on all kinds of desktops or laptops</p>
 				<p class="subtitle">Click a category to view details and pricing</p>
 					<div class="columns">
 						<div class="column">
 							<a href="repair.html"><div class="notification is-white"><div class="notification is-info service">
-								<p class="title">Computer and Virus Cleaning</p><i class="fa fa-eraser fa-2x" aria-hidden="true"></i><span class="title"> / </span>
+								<p class="title">Computer and Virus Cleaning</p>
 								<i class="fa fa-bug fa-2x" aria-hidden="true"></i>
 							</div></div></a>
-							<a href="template.html"><div class="notification is-white"><div class="notification is-info service">
+							<a><div class="notification is-white"><div class="notification is-info service">
 								<p class="title">Desktop and Laptop Repair</p>
 								<i class="fa fa-wrench fa-2x" aria-hidden="true"></i>
 							</div></div></a>
 						</div>
 
 						<div class="column">
-							<a><div class="notification is-white"><div class="notification is-info service">
+							<a href="data.html"><div class="notification is-white"><div class="notification is-info service">
 								<p class="title">Data Transfer and Recovery</p><i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
 							</div></div></a>
 							<a><div class="notification is-white"><div class="notification is-info service">
-								<p class="title">Problem Troubleshooting</p><i class="fa fa-question fa-2x" aria-hidden="true"></i>
+								<p class="title">General Troubleshooting</p><i class="fa fa-question fa-2x" aria-hidden="true"></i>
 							</div></div></a>
 						</div>
 					</div>
+					<div class="columns">
+						<div class="column">
+							<a><div class="notification is-white"><div class="notification is-info service">
+								<p class="title">Service Call</p><i class="fa fa-car fa-2x" aria-hidden="true"></i>
+						</div>
+					</div></a></div></div>
 			</article>
-    </div>
-</div>
-
-		<div class="container notification is-success">
-			<div class="box">
-				<article class="container has-text-centered notification is-white">
+			<article class="container has-text-centered notification is-white">
 					<p class="title is-3">Phone Screen Repair</p>
 					<p class="subtitle">We work on iPhones and Android phones.</p>
 						<div class="columns">
@@ -81,31 +77,26 @@
 							<a><div class="notification is-white"><div class="notification is-success phone"><p class="title">Android Screen Repair</p><i class="fa fa-android fa-4x"></i>
 							</div></div></a>
 							</div>
-							<div class="column is-">
-
-
-
-				</article>
-			</div>
-		</div>
-
-		<div class="container notification is-warning">
-			<div class="box">
-				<article class="container has-text-centered notification is-white">
+			</article>
+			<article class="container has-text-centered notification is-white">
 					<p class="title is-3">Surveillance and Security</p>
 					<p class="subtitle">Keeping you and your family safe</p>
-				</article>
-			</div>
-		</div>
+			</article>
+   		</div>
+	</div>
 	</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
+		<script>	
+function navtoggle() {
+    var d = document.getElementById("navbar");
+    if (d.classList.contains("is-active")) {
+        d.classList.remove("is-active");
+    } else {
+        d.classList.add("is-active");
+    }
+}	 </script>
 	</body>
 	<footer class="footer"><br>
-
-
 				<p>By Spencer Allegrezza</p>
-
-
 	 </footer>
 </html>
