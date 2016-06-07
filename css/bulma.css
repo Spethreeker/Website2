@@ -3086,7 +3086,8 @@ a.container{
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px
 }
 
 .columns.is-mobile > .column.is-narrow {
