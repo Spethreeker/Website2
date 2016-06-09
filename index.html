@@ -8,38 +8,46 @@
 		<link rel="stylesheet" href="css/bulma.css" media="screen" title="no title" charset="utf-8">
 		<link rel="icon" type="image/png" href="images/logos/32x32.png">
 		<script src="https://use.fontawesome.com/dc54be7162.js"></script>
+		<!--[if IE]>
+			<script src="js/PIE.js"></script>
+		<![endif]-->
 	</head>
 	<body>
-		<section class="hero">
+		<section class="hero is-black is-bold">
 			<div class="hero-head">
-				<p class="title">Title</p>
+				<img src="images/logotranswhite.png">
+				<p class="title is-4 is-pulled-right has-text-right">662-555-5555<br>Cleveland, Mississippi</p>
+				
 			</div>
-		<div class="hero-foot">
+			<div class="hero-body has-items-centered"></div>
+		<div class="hero-foot hero-buttons">
 		<nav class="nav is-shadowed">
 			<div class="nav-right nav-menu" id="navbar">
 				<a class="nav-item is-tab">Home</a>
-				<a class="nav-item is-tab">Services</a>
+				<a class="nav-item is-tab is-active">In-Store Services</a>
 				<a class="nav-item is-tab">Our Location</a>
-				<a class="nav-item  is-tab is-success">Contact Us</a>
+				<a class="nav-item hero-button is-tab is-success">Contact Us</a>
+			</div>
+			<div class="nav-toggle" onclick="navtoggle()">
+				<span></span>
+				<span></span>
+				<span></span>
 			</div>
 		</nav>
-		<nav class="nav-toggle is-centered" onclick="navtoggle()">
-				<span></span>
-				<span></span>
-				<span></span>
-			</nav>
+		
 		</div>
 		</section>
 <div class="container">
 	<div class="container notification ">
 		<div class="box">
 			<article class="container has-text-centered	notification is-white">
+				<h1 class="title"  id="inhouse">In-Store Services</h1><hr>
 				<p class="title">Computer Repair & Service</p>
 				<p class="subtitle">We work on all kinds of desktops or laptops</p>
 				<p class="subtitle">Click a category to view details and pricing</p>
 					<div class="columns">
 						<div class="column">
-							<a href="repair.html"><div class="notification is-white"><div class="notification is-info service">
+							<a href="repair.html"><div class="notification is-white"><div class="notification is-black is-bold service">
 								<p class="title is-4">Computer and Virus Cleaning</p>
 								<i class="fa fa-bug fa-2x" aria-hidden="true"></i>
 							</div></div></a>
@@ -64,7 +72,7 @@
 								<p class="title is-4">Service Call</p><i class="fa fa-car fa-2x" aria-hidden="true"></i>
 						</div>
 					</div></a></div></div>
-			</article>
+			</article><hr>
 			<article class="container has-text-centered notification is-white">
 					<p class="title is-3">Phone Screen Repair</p>
 					<p class="subtitle">We work on iPhones and Android phones.</p>

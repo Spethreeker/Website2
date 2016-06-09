@@ -223,7 +223,9 @@ pre {
   font-family: "Source Code Pro", "Monaco", "Inconsolata", monospace;
   line-height: 1.25;
 }
-
+#inhouse{
+  color: #69707a;
+}
 body {
   color: #69707a;
   font-size: 1rem;
@@ -242,8 +244,7 @@ a {
 a:hover {
   color: #222324;
 }
-.service a:hover{
-color:#fff;
+
 }
 .topbar{
   background-color: black;
@@ -1067,7 +1068,9 @@ a.container{
   background: #1f99d3;
   border-color: transparent;
   color: white;
-
+}
+.service a:hover{
+color:#fff;
 }
 .notification.is-success.phone:hover{
  background: #97cd76;
@@ -3494,7 +3497,9 @@ a.container{
     margin-left: 100%;
   }
 }
-
+.is-bold {
+  background-image: -webkit-linear-gradient(309deg, black 0%, #111 71%, #1f1c1c 100%);
+  background-image: linear-gradient(141deg, black 0%, #111 71%, #1f1c1c 100%);}
 @media screen and (min-width: 769px) {
   .column.is-narrow, .column.is-narrow-tablet {
     -webkit-box-flex: 0;
@@ -4906,6 +4911,7 @@ a.container{
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px;
+  behavior: url(css/pie.htc);
 }
 
 .nav-item a {
@@ -4962,7 +4968,7 @@ a.nav-item.is-tab {
   padding-left: 12px;
   padding-right: 12px;
 }
-a.nav-item.is-tab.is-success{
+a.nav-item.is-tab.hero-button.is-success{
 background-color:#97cd76;
 border-radius: 2px;
 color: #fff;

@@ -11,26 +11,26 @@
 
 </head>
 <body>
-  <section class="hero">
-	<div class="hero-head">
-		<p class="title">Title</p>
-	</div>
-		<div class="hero-foot">
-			<nav class="nav is-shadowed is-overlay">
-				<div class="nav-right nav-menu" id="navbar">
-					<a class="nav-item is-tab">Home</a>
-					<a class="nav-item is-tab">Services</a>
-					<a class="nav-item is-tab">Our Location</a>
-					<a class="nav-item  is-tab is-success">Contact Us</a>
-				</div>
-				<div class="nav-toggle is-centered" onclick="navtoggle()">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</nav>
-	 </div>
-	</section>
+  <section class="hero is-black is-bold">
+			<div class="hero-head">
+				<p class="title is-4 is-pulled-right has-text-right">662-555-5555<br>Highway Street, Cityville</p>
+				<img src="images/logotranswhite.png">
+			</div>
+			<div class="hero-body has-items-centered"></div>
+		<div class="hero-foot hero-buttons">
+		<nav class="nav is-shadowed">
+			<div class="nav-right nav-menu" id="navbar">
+				<a class="nav-item is-tab">Home</a>
+				<a class="nav-item is-tab" href="index.html">In-House Services</a>
+				<a class="nav-item is-tab">Our Location</a>
+				<a class="nav-item hero-button is-tab is-success">Contact Us</a>
+			</div>
+			<div class="nav-toggle" onclick="navtoggle()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</nav>
 <script>function navtoggle() {
     var d = document.getElementById("navbar");
     if (d.classList.contains("is-active")) {

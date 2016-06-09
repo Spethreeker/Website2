@@ -10,39 +10,37 @@
 	<link rel="icon" type="image/png" href="images/logos/32x32.png">
 </head>
 <body>
-	<section class="hero">
+	<section class="hero is-black is-bold">
 			<div class="hero-head">
-				<p class="title">Title</p>
-
+				<p class="title is-4 is-pulled-right has-text-right">662-555-5555<br>Highway Street, Cityville</p>
+				<img src="images/logotranswhite.png">
 			</div>
-		<div class="hero-foot">	
-			<nav class="nav is-shadowed is-overlay">
-			<div class="nav-right nav-menu" id="navbar">
-				<a class="nav-item is-tab" href="index.html">Home</a>
-				<a href="index.html" class="nav-item is-tab">Services</a>
-				<a class="nav-item is-tab">Our Location</a>
-				<a class="nav-item  is-tab is-success">Contact Us</a>
-			</div>
-			<div class="nav-toggle is-centered" onclick="navtoggle()">
-			<span></span>
-			<span></span>
-			<span></span>
 			
-				</div>
-			</nav>
-		</div>
-	</section>
+		<div class="hero-foot hero-buttons">
+		<nav class="nav is-shadowed">
+			<div class="nav-right nav-menu" id="navbar">
+				<a class="nav-item is-tab">Home</a>
+				<a class="nav-item is-tab is-active">In-House Services</a>
+				<a class="nav-item is-tab">Our Location</a>
+				<a class="nav-item hero-button is-tab is-success">Contact Us</a>
+			</div>
+			<div class="nav-toggle" onclick="navtoggle()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</nav>
 
 	</body>
 	<div class="container">
 		<div class="container notification">
 		<div  class="box">
-			<div class="container notification is-info is-bold">
-				<h1 class="title is-2">Computer Cleaning and Virus Removal</h1>
+			<div class="container notification is-info">
+				<div class="notification is-info has-text-centered"><h1 class="title is-2">Computer Cleaning and Virus Removal</h1></div>
 				<div class="box desc">
 					<div class="content">
 						<h1>What we do.</h1>
-						<p class="subtitle"> We run a suite of industry-renown programs that search your computer for malware, rootkits, junkfiles, tracking cookies, et cetera.<br> For a little extra, we disassemble your computer and clean the heatsinks and fans.
+						<p class="subtitle"> We run a suite of industry-proven programs that search your computer for malware, rootkits, junkfiles, tracking cookies, et cetera.</p><p class="subtitle"> For a little extra, we disassemble your computer and clean the heatsinks and fans.
 						After we clean your device, we allow for one follow-up job for anything we might have missed. </p>
 						<h1>How do I know if my computer has a virus?</h1>
 						<p class="subtitle">Common signs of a computer virus include:<ul>
@@ -51,8 +49,9 @@
 							<li>Unfamiliar files showing up on your desktop</li>
 						</ul></p>
 						<h1>Our Pricing</h1>
-						<p class="title">Standard cleaning: $99</p><p class="subtitle">Our standard service includes a rootkit scan, a junkfile/cookie cleaning, registery repair, and malware cleaning. We also install Malwarebytes (the industry-renowned programs we talked about earlier.)</p><br>
-						<p class="title">Deep-Cleaning: $119</p><p class="subtitle">Our deep-clean involves everything we do on the standard cleaning, but we also disassemble your device and clean off the fans and heatsinks, which can greatly increace your device's lifespan and performance.</p>
+						<div class="box"><p class="title">Standard cleaning:<span> $99</span></p>
+						<p class="subtitle">Our standard service includes a rootkit scan, a junkfile/cookie cleaning, registery repair, and malware cleaning. We also install Malwarebytes (the industry-renowned programs we talked about earlier.)</p></div><br>
+						<div class="box"><p class="title">Deep-Cleaning: $119</p><p class="subtitle">Our deep-clean involves everything we do on the standard cleaning, but we also disassemble your device and clean off the fans and heatsinks, which can greatly increace your device's lifespan and performance.</p></div>
 					</div>
 				</div>
 			</div>
