@@ -5,7 +5,8 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Protech LLC - Professional computer and security system repair and service.</title>
-		<link rel="stylesheet" href="css/bulma.css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="css/bulma.css" media="screen" title="no title" type="text/css">
+		<link rel="stylesheet" href="css/font-awesome.css" media="screen" title="no title">
 		<link rel="icon" type="image/png" href="images/logos/32x32.png">
 		<script src="https://use.fontawesome.com/dc54be7162.js"></script>
 		<!--[if IE]>
@@ -13,13 +14,19 @@
 		<![endif]-->
 	</head>
 	<body>
-		<section class="hero is-dark is-bold">
+		<div class="hero is-dark is-bold">
+			<div class="hero-head">
+				<div class="level">
+					<div class="level-item has-text-centered"><p class="subtitle has-text-centered">109 South Davis Avenue</p></div>
+				</div>
+			</div><hr>
 			<div class="hero-body">
 				<div class="container has-text-centered">
-					<img src="images/logotranswhite.png">
+					<img src="images/logotrans2.png" alt="Our very nice logo">
 				</div>
-				<p class="title is-4 is-pulled-right has-text-right">662-555-5555<br>Cleveland, Mississippi</p>
-				
+				<div class="container">
+					<p class="title has-text-centered">Your Computer Guys</p>
+				</div>
 			</div>
 			
 		<div class="hero-foot hero-buttons">
@@ -28,7 +35,7 @@
 				<a class="nav-item is-tab">Home</a>
 				<a class="nav-item is-tab is-active">In-Store Services</a>
 				<a class="nav-item is-tab">Our Location</a>
-				<a class="nav-item hero-button is-tab is-success">Contact Us</a>
+				<a class="nav-item is-tab" id=contactbutton>Contact</a>
 			</div>
 			<div class="nav-toggle" onclick="navtoggle()">
 				<span></span>
@@ -38,7 +45,7 @@
 		</nav>
 		
 		</div>
-		</section>
+		</div>
 <div class="container">
 	<div class="container notification ">
 		<div class="box">
@@ -49,32 +56,28 @@
 				<p class="subtitle">Click a category to view details and pricing</p>
 					<div class="columns">
 						<div class="column">
-							<a href="repair.html"><div class="notification is-white"><div class="notification is-black is-bold service">
+							<a href="cleaning.html"><div class="notification is-white"><div class="notification is-dark service">
 								<p class="title is-4">Computer and Virus Cleaning</p>
 								<i class="fa fa-bug fa-2x" aria-hidden="true"></i>
 							</div></div></a>
-							<a><div class="notification is-white"><div class="notification is-info service">
+							<a><div class="notification is-white"><div class="notification is-dark service">
 								<p class="title is-4">Desktop and Laptop Repair</p>
 								<i class="fa fa-wrench fa-2x" aria-hidden="true"></i>
 							</div></div></a>
 						</div>
 
 						<div class="column">
-							<a href="data.html"><div class="notification is-white"><div class="notification is-info service">
+							<a href="data.html"><div class="notification is-white"><div class="notification is-dark service">
 								<p class="title is-4">Data Transfer and Recovery</p><i class="fa fa-hdd-o fa-2x" aria-hidden="true"></i>
 							</div></div></a>
-							<a><div class="notification is-white"><div class="notification is-info service">
+							<a><div class="notification is-white"><div class="notification is-dark service">
 								<p class="title is-4">General Troubleshooting</p><i class="fa fa-question fa-2x" aria-hidden="true"></i>
 							</div></div></a>
 						</div>
 					</div>
-					<div class="columns">
-						<div class="column">
-							<a><div class="notification is-white"><div class="notification is-info service">
-								<p class="title is-4">Service Call</p><i class="fa fa-car fa-2x" aria-hidden="true"></i>
-						</div>
-					</div></a></div></div>
-			</article><hr>
+					
+			</article>
+			<hr>
 			<article class="container has-text-centered notification is-white">
 					<p class="title is-3">Phone Screen Repair</p>
 					<p class="subtitle">We work on iPhones and Android phones.</p>
@@ -106,7 +109,7 @@ function navtoggle() {
     }
 }	 </script>
 	</body>
-	<footer class="footer"><br>
+	<footer class="footer"> <br>
 				<p>By Spencer Allegrezza</p>
 	 </footer>
 </html>
