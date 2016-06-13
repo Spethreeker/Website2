@@ -1064,8 +1064,8 @@ a.container{
   background: white;
   color: #42afe3;
 }
-.notification.is-info.service:hover{
-  background: #1f99d3;
+.notification.is-dark.service:hover{
+  background: #97cd76;
   border-color: transparent;
   color: white;
 }
@@ -4969,14 +4969,16 @@ a.nav-item.is-tab {
   padding-right: 12px;
 }
 #contactbutton{
-background-color:#8bbd3a;
-border-radius: 50px;
+background-color: #97cd76;
+border-radius: 4px;
 color: #fff;
-line-height: 20px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+line-height: 20px; 
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
-
+#test:hover{
+  color: #312;
+}
 .nav-item a.is-tab:hover,
 a.nav-item.is-tab:hover {
   border-bottom: 1px solid green;
@@ -6174,7 +6176,7 @@ a.panel-block:hover {
 }
 
 .hero.is-success {
-  background: #97cd76;
+  background: ##8bbd3a;
   color: white;
 }
 
