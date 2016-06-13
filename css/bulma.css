@@ -262,7 +262,9 @@ hr {
   border-top-color: #d3d6db;
   margin: 20px 0;
 }
-
+.nomargin{
+  margin-bottom: -10px;
+}
 img {
   max-width: 100%;
 }
