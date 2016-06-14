@@ -1356,6 +1356,74 @@ color:#fff;
 .content h6 {
   font-size: 1em;
 }
+@media screen and (min-width: 769px){
+   h1, h2 {
+        font-size: 32px;
+        font-size: 2em;
+        line-height: 1.125em
+    }
+}
+@media (min-width: 30em) {
+    h1,
+    h2 {
+        font-size: 32px;
+        font-size: 2em;
+        line-height: 1.125em
+    }
+}
+
+@media (min-width: 48em) {
+    h1,
+    h2 {
+        font-size: 48px;
+        font-size: 3em;
+        line-height: 1.25em
+    }
+}
+
+h1 {
+    font-weight: 300;
+    color: #808c99
+}
+
+@media (min-width: 64em) {
+    h1 {
+        font-size: 64px;
+        font-size: 4em;
+        line-height: 1.125em
+    }
+}
+
+@media (min-width: 80em) {
+    h1 {
+        font-size: 96px;
+        font-size: 6em;
+        line-height: 1.125em
+    }
+}
+
+h2 {
+    padding-top: 2em;
+    padding-bottom: 1em
+}
+
+h2:first-child {
+    padding-top: 0
+}
+
+@media (min-width: 30em) {
+    h2 {
+        padding-top: 1.5em;
+        padding-bottom: .75em
+    }
+}
+
+@media (min-width: 48em) {
+    h2 {
+        padding-top: 1em;
+        padding-bottom: .5em
+    }
+}
 
 .content ol {
   list-style: decimal outside;
