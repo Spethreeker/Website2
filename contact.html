@@ -1,70 +1,74 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contact Us</title><link rel="stylesheet" href="css/bulma.css" media="screen" title="no title" charset="utf-8">
-<link rel="stylesheet" href="css/font-awesome.css" media="screen" title="no title">
-<script src="https://use.fontawesome.com/dc54be7162.js"></script>
-<link rel="icon" type="image/png" href="images/logos/32x32.png">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us</title><link rel="stylesheet" href="css/bulma.css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="css/font-awesome.css" media="screen" title="no title">
+	<script src="https://use.fontawesome.com/dc54be7162.js"></script>
+	<link rel="icon" type="image/png" href="images/logos/32x32.png">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<style>
+		@import 'https://fonts.googleapis.com/css?family=Raleway';
+	</style>
 </head>
 <body>
- <section class="hero is-dark is-bold">
-	<div class="hero-head">
-		<div class="container has-text-centered">
-						<img src="images/goodlogo.png" alt="Our very nice logo" height="100">
-					</div>
-	</div>
-		<div class="hero-foot">
-		<div class="level">
-						<div class="level-right">
-							<a class="icon is-medium" href="https://www.facebook.com/Myputerguys/" target="_blank">
-								<i class="fa fa-facebook-official has-text-centered" aria-hidden="true"></i>
-							</a>
-						</div>
-		<nav class="nav is-shadowed">			
-			<div class="nav-right nav-menu" id="navbar">
-				<a class="nav-item is-tab">Home</a>
-				<a class="nav-item is-tab" href="index.html">In-Store Services</a>
-				<a class="nav-item is-tab">Buisness Services</a>
-				<a class="nav-item is-tab">Our Location</a>
-				<a class="nav-item is-tab" id="contactbutton">Contact</a>
+	<section class="hero is-dark is-bold">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<img src="images/goodlogo.png" alt="Our very nice logo" id="logo">
 			</div>
-			<div class="nav-toggle is-centered" onclick="navtoggle()">
-			<span></span>
-			<span></span>
-			<span></span>
-				</div>
-		</nav>
 		</div>
+		<div class="hero-foot">
+			<div class="level">
+				<div class="level-right">
+					<a class="icon is-medium" href="https://www.facebook.com/Myputerguys/" target="_blank">
+						<i class="fa fa-facebook-official has-text-centered" aria-hidden="true"></i>
+					</a>
+				</div>
+				<nav class="nav is-shadowed">			
+					<div class="nav-right nav-menu" id="navbar">
+						<a class="nav-item is-tab">Home</a>
+						<a class="nav-item is-tab" href="index.html">In-Store Services</a>
+						<a class="nav-item is-tab">Buisness Services</a>
+						<a class="nav-item is-tab">Our Location</a>
+						<a class="nav-item is-tab" id="contactbutton">Contact</a>
+					</div>
+					<div class="nav-toggle" onclick="navtoggle()">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</nav>
+			</div>
 		</div>
 	</section>
-  <div class="container">
+	<div class="container">
 		<div class="container notification">
-			<div class="box">
-			<div class="container notification has-text-centered is-dark">
-				<div class="notification is-dark"><h1 class="title is-2">Contact Us</h1></div>
+			
+			<div class="container notification has-text-centered is-light">
+				<div class="notification"><h1 class="title">Contact Us</h1><hr class="nomargin"></div>
 				<div class="box desc">
-				<div class="content has-text-centered">
-				<h1>Call us at 662-545-3465</h1>
-				<h1>7:00 A.M. - 5:00 P.M. Monday through Friday</h1>
-				<h1>If no one answers, please call<br>
-				662-719-0187</h1>
+					<div class="content has-text-centered">
+						<h1>Call us at 662-545-3465</h1>
+						<h1>7:00 A.M. - 5:00 P.M. Monday through Friday</h1>
+						<h1>If no one answers, please call<br>
+							662-719-0187</h1>
 
+						</div>
+					</div>
 				</div>
-				</div>
-				</div>
+
 			</div>
-		</div>
-		<script>	
-					function navtoggle() {
-						var d = document.getElementById("navbar");
-						if (d.classList.contains("is-active")) {
-							d.classList.remove("is-active");
-						} else {
-							d.classList.add("is-active");
-						}
-					}	 </script>
-</body>
-</html>
+			<script>	
+				function navtoggle() {
+					var d = document.getElementById("navbar");
+					if (d.classList.contains("is-active")) {
+						d.classList.remove("is-active");
+					} else {
+						d.classList.add("is-active");
+					}
+				}	 </script>
+			</body>
+			</html>

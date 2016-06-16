@@ -33,7 +33,7 @@ html {
 }
 
 ul {
-  list-style: none;
+  list-style: ;
 }
 
 blockquote, q {
@@ -213,8 +213,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
+font-family: 'Raleway', sans-serif;}
 
 code,
 pre {
@@ -1107,7 +1106,7 @@ color:#fff;
 
 .button.is-success, .pagination a.is-success {
   background: #97cd76;
-  border-color: transparent;
+  border-color: white;
   color: white;
 }
 
@@ -5046,8 +5045,20 @@ line-height: 20px;
   margin-top: 1px;
   margin-bottom: 1px;
 }
-#test:hover{
-  color: #312;
+}
+.dropdown{
+  min-width: 100%; /* Set width of the dropdown */
+        background: #f2f2f2;
+        visibility: hidden;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+}
+.dropdown-down{
+  visibility: visible;
+}
+#logo{
+  height: 110px;
 }
 .nav-item a.is-tab:hover,
 a.nav-item.is-tab:hover {

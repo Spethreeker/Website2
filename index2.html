@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Protech LLC - Professional computer and security system repair and service.</title>
 	<link rel="stylesheet" href="css/bulma.css" media="screen" title="no title" type="text/css">
-
+	
 	<link rel="icon" type="image/png" href="images/logos/32x32.png">
 	<script src="https://use.fontawesome.com/dc54be7162.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -24,7 +24,7 @@
 	<div class="hero is-dark is-bold">
 		<div class="hero-body">
 			<div class="container has-text-centered">
-				<img src="images/goodlogo.png" alt="Our very nice logo" id="logo">
+				<img src="images/goodlogo.png" alt="Our very nice logo" height="100">
 			</div>
 		</div>
 
@@ -36,20 +36,22 @@
 					</a>
 				</div>
 
-				<nav class="nav is-shadowed">
-					<div class="nav-right nav-menu" id="navbar">
-						<a class="nav-item is-tab">Home</a>
-						<a class="nav-item is-tab is-active">In-Store Services</a>
-						<a class="nav-item is-tab">Buisness Services</a>
-						<a class="nav-item is-tab">Our Location</a>
-						<a class="nav-item is-tab" id=contactbutton href="contact.html">Contact</a>
-					</div>
+				<div class="nav">
+					<div class="nav-menu is-inline" id="navbar">
+						<ul class="is-inline">
+						<li><a class="nav-item is-tab is-inline">Home</a><li>
+						<li><a class="nav-item is-tab is-active" >In-Store Services</a></li>
+							
+						<li><a class="nav-item is-tab is-inline">Buisness Services</a></li>
+						<li><a class="nav-item is-tab is-inline">Our Location</a></li>
+						<li><a class="nav-item is-tab is-inline" id=contactbutton href="contact.html">Contact</a></li>
+					</ul></div>
 					<div class="nav-toggle" onclick="navtoggle()">
 						<span></span>
 						<span></span>
 						<span></span>
 					</div>
-				</nav>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -114,7 +116,25 @@
 			} else {
 				d.classList.add("is-active");
 			}
-		}	 
+		}	
+		function dropdown_down() {
+			var d= document.getElementById("dropdown");
+			if (d.classList.contains("dropdown")) {
+				d.classList.remove("dropdown");
+
+			} else {
+				d.classList.add("dropdown-down");
+			}
+		} 
+		function dropdown_up() {
+			var d= document.getElementById("dropdown");
+			if (d.classList.contains("dropdown-down")) {
+				d.classList.remove("dropdown-down");
+
+			} else {
+				d.classList.add("dropdown");
+			}
+		} 
 		</script>
 	</body>
 	<footer class="footer">
