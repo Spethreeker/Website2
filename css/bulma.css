@@ -264,6 +264,10 @@ hr {
 .nomargin{
   margin-bottom: -10px;
 }
+.before-button{
+margin-bottom: 10px;
+margin-top: -10px;
+}
 img {
   max-width: 100%;
 }
@@ -1108,12 +1112,16 @@ color:#fff;
   background: #97cd76;
   border-color: white;
   color: white;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  transition:all .3s ease;
 }
 
 .button.is-success:hover, .pagination a.is-success:hover, .button.is-success:focus, .pagination a.is-success:focus {
-  background: #7bbf51;
+  background: #fff;
   border-color: transparent;
-  color: white;
+  color: #7bbf51;
 }
 
 .button.is-success:active, .pagination a.is-success:active {
@@ -4981,6 +4989,7 @@ h2:first-child {
           justify-content: center;
   padding: 10px;
   behavior: url(css/pie.htc);
+  -webkit-transition: color .2s ease;
 }
 
 .nav-item a {
@@ -5044,7 +5053,14 @@ color: #fff;
 line-height: 20px; 
   margin-top: 1px;
   margin-bottom: 1px;
+   -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
+#contactbutton:hover{
+  background-color: white;
+  color:#97cd76;
 }
 .dropdown{
   min-width: 100%; /* Set width of the dropdown */
@@ -5058,7 +5074,10 @@ line-height: 20px;
   visibility: visible;
 }
 #logo{
-  height: 110px;
+  height: 120px;
+}
+#levelitem{
+  display: none;
 }
 .nav-item a.is-tab:hover,
 a.nav-item.is-tab:hover {
@@ -5670,7 +5689,7 @@ a.panel-block:hover {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  padding: 40px 20px;
+  padding: 20px 20px;
 }
 
 @media screen and (min-width: 980px) {
@@ -6014,6 +6033,13 @@ a.panel-block:hover {
   .hero.is-dark .nav-menu {
     background: #69707a;
   }
+  .hero-body{
+    display: none;
+  }
+  #levelitem{
+    display: block;
+  }
+  
 }
 
 .hero.is-dark a.nav-item,
