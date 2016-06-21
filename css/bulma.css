@@ -261,13 +261,6 @@ hr {
   border-top-color: #d3d6db;
   margin: 20px 0;
 }
-.nomargin{
-  margin-bottom: -10px;
-}
-.before-button{
-margin-bottom: 10px;
-margin-top: -10px;
-}
 img {
   max-width: 100%;
 }
@@ -2201,6 +2194,10 @@ h2:first-child {
 .image.is-128x128 {
   height: 128px;
   width: 128px;
+}
+.image.is-256x256{
+  height: 256px;
+  width: 256px:;
 }
 
 .notification {
@@ -5091,29 +5088,37 @@ line-height: 20px;
 }
 .card-words{
   color: #1f1c1c;
-  -webkit-transition: color .2s linear;
+  -webkit-transition: color, background-color .5s linear;
   -moz-transition: color .2s linear;
-  transition: color .2s linear;
-}
-.card-words-black{
-  color:#1f1c1c;
-  -webkit-transition: color .2s linear;
-  -moz-transition: color .2s linear;
-  transition: color .2s linear;
+  transition: color, background-color .5s ease-in;
+  cursor: pointer;
 }
 .card-words:hover{
-  color: #97cd76;
+  
+  background-color: #A1D283;
 }
-.card-words-black:hover{
-  color: #97cd76;
-}
+
 .alarms{
- background-image: url("../images/Arming_icon.jpg");
- background-size: auto;
+ background-image: url("../images/Smart_stat_hero_shot.jpg");
+ background-size: 600px 250px;
  background-repeat: no-repeat;
+ background-position: center;
 }
 .super-padded{
   padding: 100px 100px;
+}
+#learnmore{
+  position: relative;
+  left: 50px; 
+  bottom: 100px;
+
+}
+.nomargin{
+  margin: none;
+}
+.before-button{
+margin-bottom: 10px;
+margin-top: -10px;
 }
 .nav-item a.is-tab:hover,
 a.nav-item.is-tab:hover {
@@ -5141,6 +5146,7 @@ a.nav-item.is-tab.is-active {
   .nav-menu .nav-item {
     border-top: 1px solid rgba(211, 214, 219, 0.5);
     padding: 10px;
+    text-align: center;
   }
   .nav-menu.is-active {
     display: block;
