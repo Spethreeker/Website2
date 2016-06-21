@@ -5086,15 +5086,14 @@ line-height: 20px;
 #iphone{
   background-image: url(../images/iphone_background.jpg);
 }
-.card-words{
+.card-words .box{
   color: #1f1c1c;
   -webkit-transition: color, background-color .5s linear;
   -moz-transition: color .2s linear;
   transition: color, background-color .5s ease-in;
   cursor: pointer;
 }
-.card-words:hover{
-  
+.card-words:hover .box{
   background-color: #A1D283;
 }
 
