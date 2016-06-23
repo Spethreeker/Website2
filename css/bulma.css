@@ -1066,21 +1066,33 @@ a.container{
   background: #97cd76;
   border-color: transparent;
   color: white;
+  -webkit-transition: background-color .3s ease-out;
+  -moz-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
 }
 .service a:hover{
 color:#fff;
+background-color: #a5d489; 
 }
 .notification.is-success.phone:hover{
  background: #97cd76;
  border-color: transparent;
   color: white;
 }
-.notification.is-success.phone{
-  background: #7bbf51;
+.notification.is-success.service{
+  background: #97cd76;
  border-color: transparent;
   color: white;
+  -webkit-transition: background .3s ease;
+  -moz-transition: background .3s ease;
+  transition: background .3s ease;
 }
-
+.notification.is-success.service:hover{
+  background: #a5d489;
+}
+.notification.is-success.service:hover .button{
+  background: #a5d489;
+}
 .button.is-info.is-inverted:hover, .pagination a.is-info.is-inverted:hover {
   background: #f2f2f2;
 }
@@ -1112,7 +1124,7 @@ color:#fff;
 }
 
 .button.is-success:hover, .pagination a.is-success:hover, .button.is-success:focus, .pagination a.is-success:focus {
-  background: #fff;
+  background: #fff !important;
   border-color: transparent;
   color: #7bbf51;
 }
