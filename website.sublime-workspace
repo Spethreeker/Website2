@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"ease",
-				"ease-in"
+				"backgrou",
+				"background-position"
 			],
 			[
-				"backgrou",
-				"background-color"
+				"u",
+				"url()"
+			],
+			[
+				"ease",
+				"ease-in"
 			],
 			[
 				"back",
@@ -31,7 +35,7 @@
 			"file": "css/bulma.css",
 			"settings":
 			{
-				"buffer_size": 135908,
+				"buffer_size": 136312,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,15 +43,7 @@
 			"file": "newhome.html",
 			"settings":
 			{
-				"buffer_size": 4495,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 5486,
+				"buffer_size": 4857,
 				"line_ending": "Windows"
 			}
 		}
@@ -95,6 +91,8 @@
 	"file_history":
 	[
 		"/C/Users/Spencer/Documents/GitHub/Website2/index.html",
+		"/C/Users/Spencer/Documents/GitHub/Website2/newhome.html",
+		"/C/Users/Spencer/Documents/GitHub/Website2/oldindex.html",
 		"/C/Users/Spencer/Documents/GitHub/Website2/home.html",
 		"/C/Users/Spencer/Documents/GitHub/Website2/cleaning.html",
 		"/C/Users/Spencer/Documents/GitHub/Website2/data.html",
@@ -117,6 +115,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"figure",
+			"circ",
+			".image",
+			"logo",
+			"is-pull",
+			"right-aligned",
+			"nav-toggle",
 			"alar",
 			"is-center",
 			";\n",
@@ -159,7 +164,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -168,7 +173,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 135908,
+						"buffer_size": 136312,
 						"regions":
 						{
 							"bookmarks":
@@ -188,8 +193,8 @@
 						"selection":
 						[
 							[
-								96887,
-								96887
+								97571,
+								97571
 							]
 						],
 						"settings":
@@ -200,10 +205,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 76062.0,
+						"translation.y": 76441.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -212,15 +217,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4495,
+						"buffer_size": 4857,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3095,
-								3095
+								3350,
+								3350
 							]
 						],
 						"settings":
@@ -230,46 +235,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 690.0,
+						"translation.y": 829.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"file": "images/ADC_logo_vertical_web.png",
-					"semi_transient": true,
-					"stack_index": 2,
-					"type": "image"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5486,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1757,
-								1757
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

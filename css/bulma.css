@@ -2853,6 +2853,10 @@ h2:first-child {
   transition-property: background, left, opacity, transform, -webkit-transform;
   width: 15px;
 }
+.nav-toggle i{
+position: absolute;
+  float: right;
+}
 
 .hamburger span:nth-child(1), .nav-toggle span:nth-child(1) {
   margin-top: -6px;
@@ -5110,7 +5114,6 @@ line-height: 20px;
   position: relative;
   left: 50px; 
   bottom: 100px;
-
 }
 .nomargin{
   margin: none;
@@ -5119,6 +5122,25 @@ line-height: 20px;
 margin-bottom: 10px;
 margin-top: -10px;
 }
+.circlepic{
+  margin: auto;
+  width:250px;
+  height:250px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-position: center;
+  
+}
+.circlepic.alarmpic{
+ background-image: url("../images/simonxt.jpg");
+}
+.circlepic.hardwarepic{
+  background-image: url(../images/server_pic2.jpg);
+  
+}
+
+//*Stop Custom*//
 .nav-item a.is-tab:hover,
 a.nav-item.is-tab:hover {
   border-bottom: 1px solid green;
