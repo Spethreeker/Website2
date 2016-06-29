@@ -63,15 +63,18 @@
 					<div class="notification is-success is-pulled-right">
 						<h1 class="title">Control your home from anywhere.</h1><p class="subtitle">With Alarm.com's mobile app, you always have an eye on your home or buisness.</p>
 					</div>
-					<nav></nav>
-					<img src="images/alarmiphoneapp.png">
-				
+					
+					<div class="regular slider">
+						<img src="images//alarm/alarmiphoneapp.png">
+						<img src="images/alarm/iphone_arming_disarmed.png">
+						<img src="images/alarm/iphone_locks.png">
+					</div>				
 				</div>
 				
 			
 	</div>
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
 <hr class="is-marginless">
 	<footer class="footer">
 		<div class="level">
@@ -92,6 +95,7 @@
 			</div>
 		</div>
 	</footer>
+
 	</body>
 	
 	<script>	
@@ -102,6 +106,16 @@
 			} else {
 				d.classList.add("is-active");
 			}
-		}	 
-		</script>
+		}
+		</script>	 
+		<script type="text/javascript">
+		$(document).ready(function(){
+		  $('.regular').slick({
+		    accessibility: true,
+		    arrows: true,
+		    mobileFirst: true
+		  });
+		});
+      </script>
+		
 	</html>
