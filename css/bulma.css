@@ -5104,14 +5104,7 @@ line-height: 20px;
 margin-bottom: 10px;
 margin-top: -10px;
 }
-.circlepic{
-  margin: auto;
-  display: inline-block;
-  max-width:100%;
-  max-height:100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 .circlepic.alarmpic{
  background-image: url("../images/simonxt.jpg");
  background-size: 100%
@@ -5143,8 +5136,9 @@ background-color: #a5d489;
   background: #b3db9c;
 }
 .centerpic{
-  margin-right: auto;
-  margin-left: auto;
+  
+  
+
 }
 //*Stop Custom*//
 
