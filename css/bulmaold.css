@@ -2665,177 +2665,168 @@ h2:first-child {
   font-weight: 700;
 }
 @media screen and (max-width: 900px){
-    .title {
-    color: #222324;
-    font-size: 26px;
-    line-height: 1;
-  }
-
-  .title code {
-    display: inline-block;
-    font-size: 28px;
-  }
-
-  .title strong {
-    color: inherit;
-  }
-
-  .title + .highlight {
-    margin-top: -10px;
-  }
-
-  .title + .subtitle {
-    margin-top: -10px;
-  }
-
-  .title.is-1 {
-    font-size: 46px;
-  }
-
-  .title.is-1 code {
-    font-size: 38px;
-  }
-
-  .title.is-2 {
-    font-size: 38px;
-  }
-
-  .title.is-2 code {
-    font-size: 26px;
-  }
-
-  .title.is-3 {
-    font-size: 26px;
-  }
-
-  .title.is-3 code {
-    font-size: 22px;
-  }
-
-  .title.is-4 {
-    font-size: 22px;
-  }
-
-  .title.is-4 code {
-    font-size: 16px;
-  }
-
-  .title.is-5 {
-    font-size: 16px;
-  }
-
-  .title.is-5 code {
-    font-size: 12px;
-  }
-
-  .title.is-6 {
-    font-size: 12px;
-  }
-
-  .title.is-6 code {
-    font-size: 12px;
-  }
-
-  .title.is-normal {
-    font-weight: 400;
-  }
-
-  .title.is-normal strong {
-    font-weight: 700;
-  }
-
-  @media screen and (min-width: 769px) {
-    .title + .subtitle {
-      margin-top: -15px;
-    }
-
-  }
-
-  .subtitle {
-    color: #69707a;
-    font-size: 16px;
-    line-height: 1.125;
-  }
-
-  .subtitle code {
-    border-radius: 3px;
-    display: inline-block;
-    font-size: 14px;
-    padding: 2px 3px;
-    vertical-align: top;
-  }
-
-  .subtitle strong {
-    color: #222324;
-  }
-
-  .subtitle + .title {
-    margin-top: -20px;
-  }
-
-  .subtitle.is-1 {
-    font-size: 42px;
-  }
-
-  .subtitle.is-1 code {
-    font-size: 38px;
-  }
-
-  .subtitle.is-2 {
-    font-size: 38px;
-  }
-
-  .subtitle.is-2 code {
-    font-size: 26px;
-  }
-
-  .subtitle.is-3 {
-    font-size: 26px;
-  }
-
-  .subtitle.is-3 code {
-    font-size: 22px;
-  }
-
-  .subtitle.is-4 {
-    font-size: 24px;
-  }
-
-  .subtitle.is-4 code {
-    font-size: 16px;
-  }
-
-  .subtitle.is-5 {
-    font-size: 16px;
-  }
-
-  .subtitle.is-5 code {
-    font-size: 12px;
-  }
-
-  .subtitle.is-6 {
-    font-size: 12px;
-  }
-
-  .subtitle.is-6 code {
-    font-size: 12px;
-  }
-
-  .subtitle.is-normal {
-    font-weight: 400;
-  }
-
-  .subtitle.is-normal strong {
-    font-weight: 700;
-  }
-
-#iphonepicture .alarm-mobile{
-  background-image:url('../images/alarm/iphone_control.png');
-  width:245px;
-  height: 500px;
+  .title {
+  color: #222324;
+  font-size: 28px;
+  line-height: 1;
 }
-#iphonepicture .alarm-desktop{
-  display: none;
+
+.title code {
+  display: inline-block;
+  font-size: 28px;
+}
+
+.title strong {
+  color: inherit;
+}
+
+.title + .highlight {
+  margin-top: -10px;
+}
+
+.title + .subtitle {
+  margin-top: -10px;
+}
+
+.title.is-1 {
+  font-size: 48px;
+}
+
+.title.is-1 code {
+  font-size: 40px;
+}
+
+.title.is-2 {
+  font-size: 40px;
+}
+
+.title.is-2 code {
+  font-size: 28px;
+}
+
+.title.is-3 {
+  font-size: 28px;
+}
+
+.title.is-3 code {
+  font-size: 24px;
+}
+
+.title.is-4 {
+  font-size: 24px;
+}
+
+.title.is-4 code {
+  font-size: 18px;
+}
+
+.title.is-5 {
+  font-size: 18px;
+}
+
+.title.is-5 code {
+  font-size: 14px;
+}
+
+.title.is-6 {
+  font-size: 14px;
+}
+
+.title.is-6 code {
+  font-size: 14px;
+}
+
+.title.is-normal {
+  font-weight: 400;
+}
+
+.title.is-normal strong {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 769px) {
+  .title + .subtitle {
+    margin-top: -15px;
+  }
+
+}
+
+.subtitle {
+  color: #69707a;
+  font-size: 18px;
+  line-height: 1.125;
+}
+
+.subtitle code {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 14px;
+  padding: 2px 3px;
+  vertical-align: top;
+}
+
+.subtitle strong {
+  color: #222324;
+}
+
+.subtitle + .title {
+  margin-top: -20px;
+}
+
+.subtitle.is-1 {
+  font-size: 48px;
+}
+
+.subtitle.is-1 code {
+  font-size: 40px;
+}
+
+.subtitle.is-2 {
+  font-size: 40px;
+}
+
+.subtitle.is-2 code {
+  font-size: 28px;
+}
+
+.subtitle.is-3 {
+  font-size: 28px;
+}
+
+.subtitle.is-3 code {
+  font-size: 24px;
+}
+
+.subtitle.is-4 {
+  font-size: 24px;
+}
+
+.subtitle.is-4 code {
+  font-size: 18px;
+}
+
+.subtitle.is-5 {
+  font-size: 18px;
+}
+
+.subtitle.is-5 code {
+  font-size: 14px;
+}
+
+.subtitle.is-6 {
+  font-size: 14px;
+}
+
+.subtitle.is-6 code {
+  font-size: 14px;
+}
+
+.subtitle.is-normal {
+  font-weight: 400;
+}
+
+.subtitle.is-normal strong {
+  font-weight: 700;
 }
 }
 .delete, .modal-close {
@@ -5180,9 +5171,16 @@ line-height: 20px;
   background-color: white;
   color:#97cd76;
 }
-
-
-
+.dropdown{
+  min-width: 100%; /* Set width of the dropdown */
+        background: #f2f2f2;
+        visibility: hidden;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+}
+.dropdown-down{
+  visibility: visible;
 }
 #logo{
   height: 120px;
@@ -5259,7 +5257,11 @@ background-color: #a5d489;
 .notification.is-success.service:hover .button{
   background: #b3db9c;
 }
+.centerpic{
+  
+  
 
+}
 //*Stop Custom*//
 
 .nav-item a.is-tab:hover,
