@@ -1306,7 +1306,7 @@ a.container{
 .content h1:not(:first-child),
 .content h2:not(:first-child),
 .content h3:not(:first-child) {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .content blockquote {
@@ -2215,9 +2215,6 @@ h2:first-child {
   background: #ed6c63;
   color: white;
 }
-.desc{
-  color: black;
-}
 
 .progress {
   -moz-appearance: none;
@@ -2664,7 +2661,7 @@ h2:first-child {
 .subtitle.is-normal strong {
   font-weight: 700;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 786px){
     .title {
     color: #222324;
     font-size: 26px;
@@ -2828,15 +2825,6 @@ h2:first-child {
   .subtitle.is-normal strong {
     font-weight: 700;
   }
-
-#iphonepicture .alarm-mobile{
-  background-image:url('../images/alarm/iphone_control.png');
-  width:245px;
-  height: 500px;
-}
-#iphonepicture .alarm-desktop{
-  display: none;
-}
 }
 .delete, .modal-close {
   -moz-appearance: none;
@@ -5164,6 +5152,9 @@ a.nav-item.is-tab {
   padding-left: 12px;
   padding-right: 12px;
 }
+#address{
+  margin-bottom: 0px;
+}
 #contactbutton{
 background-color: #97cd76;
 border-radius: 4px;
@@ -5181,37 +5172,51 @@ line-height: 20px;
   color:#97cd76;
 }
 
-
-
 }
 #logo{
-  height: 120px;
-}
-#address{
-  margin-bottom: 0px;
+height: 120px;
+width: auto;
 }
 #levelitem{
   display: none;
 }
-#iphone{
-  background-image: url(../images/iphone_background.jpg);
+#iphone-picture{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/alarm/iphone_locks.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
-.card-words .box{
-  color: #1f1c1c;
-  -webkit-transition: color, background-color .3s linear;
-  -moz-transition: color .3s linear;
-  transition: color, background-color .3s linear;
-  cursor: pointer;
+#instore-title-box{
+  margin-bottom: 0px;
 }
-.card-words:hover .box{
-  background-color: #A1D283;
+#morepadding{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
+.iphone_features{
+  color: #69707a;
+}
 .alarms{
  background-image: url("../images/Smart_stat_hero_shot.jpg");
  background-size: 600px 250px;
  background-repeat: no-repeat;
  background-position: center;
+}
+.card-words .box{
+  color: #1f1c1c;
+  background-color: #97cd76;
+  -webkit-transition: color, background-color .3s ease;
+  -moz-transition: color .3s ease;
+  transition: color, background-color .3s ease;
+  cursor: pointer;
+}
+.card-words:hover .box{
+  background-color: #a5d489;
+}
+.desc{
+  color: black;
 }
 .super-padded{
   padding: 100px 100px;
@@ -5223,6 +5228,9 @@ line-height: 20px;
 }
 .nomargin{
   margin: none;
+}
+.nomargin-top{
+  margin-top: 0px;
 }
 .before-button{
 margin-bottom: 10px;
@@ -5257,7 +5265,7 @@ background-color: #a5d489;
   background: #a5d489;
 }
 .notification.is-success.service:hover .button{
-  background: #b3db9c;
+  background: #a5d489;
 }
 
 //*Stop Custom*//
