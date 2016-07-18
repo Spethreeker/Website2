@@ -59,19 +59,19 @@
 	<div class="container has-text-centered">
 		<h1 class="title is-2 has-text-centered">Security systems today can do more than ever.</h1><p class="subtitle is-4 has-text-centered">And we know everything they can do.</p>		
 				<div class="notification is-success">					
-					<div class="columns is-gapless">
+					<div class="columns is-gapless higher">
 						<div class="column notification is-light">
 							<div class="notification is-light iphone_features" id="morepadding">
-								<a class="iphone_features" onclick="showControl()"><h1 class="title">Control your home from anywhere.</h1><p class="subtitle">With Alarm.com's mobile app, you always have an eye on your home or buisness.</p>
+								<a class="iphone_features" onclick="showControl()" id="control-descripction"><h1 class="title">Control your home from anywhere.</h1><p class="subtitle">With Alarm.com's mobile app, you always have an eye on your home or buisness.</p>
 								<img class="is-hidden-desktop" src="images/alarm/iphone_control.png"></a><hr>
 
 								<br>
-								<a class="iphone_features" onclick="showLocks()">
+								<a class="iphone_features" onclick="showLocks()" id="locks-description">
 								<h1 class="title">Unlock your home, no keys required.</h1><p class="subtitle">No more leaving a key under the mat.</p>
 								<img class="is-hidden-desktop" src="images/alarm/iphone_locks.png"></a><hr>
 
 								<br>
-								<a class="iphone_features" onclick="showArming()">
+								<a class="iphone_features" onclick="showArming()" id="arming-description">
 								<h1 class="title">Arm or disarm your system anytime.</h1><p class="subtitle">One less code you have to remeber.</p>
 								<img class="is-hidden-desktop" src="images/alarm/iphone_arming_disarmed.png"></a><hr>
 								
@@ -135,12 +135,20 @@
 		}
 		function showControl() {
 			var e = document.getElementById("iphone-picture").style.backgroundImage = "url('images/alarm/iphone_control.png')";
+			var f = document.getElementById("locks-description").style.color = "#69707a";
+			var g = document.getElementById("control-descripction").style.color = "black";
+			var h = document.getElementById("arming-description").style.color = "#69707a";
 		}
 		function showLocks() {
 			var e = document.getElementById("iphone-picture").style.backgroundImage = "url('images/alarm/iphone_locks.png')";
+			var f = document.getElementById("control-descripction").style.color = "#69707a";
+			var g = document.getElementById("locks-description").style.color = "black";
 		}
 		function showArming() {
 			var e = document.getElementById("iphone-picture").style.backgroundImage = "url('images/alarm/iphone_arming_disarmed.png')";
+			var f = document.getElementById("control-descripction").style.color = "#69707a";
+			var g = document.getElementById("arming-description").style.color = "black";
+			var h = document.getElementById("locks-description").style.color = "#69707a";
 		}
 	</script>	 
 

@@ -381,6 +381,9 @@ table th {
   .is-block-desktop {
     display: block !important;
   }
+  .higher{
+    height: 500px;
+  }
 }
 
 @media screen and (min-width: 980px) and (max-width: 1179px) {
@@ -5173,10 +5176,10 @@ line-height: 20px;
 }
 
 }
-#logo{
-height: 120px;
-width: auto;
+#control-descripction{
+  color: black;
 }
+
 #levelitem{
   display: none;
 }
@@ -5186,6 +5189,7 @@ width: auto;
   background-image: url(../images/alarm/iphone_locks.png);
   background-repeat: no-repeat;
   background-position: center center;
+  color: #69707a;
 }
 #instore-title-box{
   margin-bottom: 0px;
