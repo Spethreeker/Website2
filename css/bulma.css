@@ -5186,7 +5186,7 @@ line-height: 20px;
 #iphone-picture{
   width: 100%;
   height: 100%;
-  background-image: url(../images/alarm/iphone_locks.png);
+  background-image: url(../images/alarm/iphone_control.png);
   background-repeat: no-repeat;
   background-position: center center;
   color: #69707a;
@@ -5210,7 +5210,7 @@ line-height: 20px;
 }
 .card-words .box{
   color: #1f1c1c;
-  background-color: #97cd76;
+  background-color: inherit;
   -webkit-transition: color, background-color .3s ease;
   -moz-transition: color .3s ease;
   transition: color, background-color .3s ease;
@@ -5224,6 +5224,9 @@ line-height: 20px;
 }
 .super-padded{
   padding: 100px 100px;
+}
+.test{
+  border-radius: 50px;
 }
 #learnmore{
   position: relative;
