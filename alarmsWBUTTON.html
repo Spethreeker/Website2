@@ -7,7 +7,7 @@
 	<title>Alarm Systems - Protech</title>
 	<link rel="stylesheet" href="css/bulma.css" media="screen" title="no title" type="text/css">
 	<link rel="icon" type="image/png" href="images/logos/32x32.png">
-	</script>
+	
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<style>
 	@import 'https://fonts.googleapis.com/css?family=Raleway';
@@ -61,19 +61,19 @@
 				<div class="notification is-success">					
 					<div class="columns is-gapless higher">
 						<div class="column notification is-light">
-							<div class="notification is-light" id="morepadding">
-								<button class="iphone-features" id="control-description"><h1 class="title">Control your home from anywhere.</h1><p class="subtitle">Keep an eye on your home or buisness, always.</p>
-								<img class="is-hidden-desktop" src="images/alarm/iphone_control.png"></button><hr>
+							<div class="notification is-light iphone_features" id="morepadding">
+								<a class="iphone_features" onclick="showControl()" id="control-descripction"><h1 class="title" id="control-descripction">Control your home from anywhere.</h1><p class="subtitle">With Alarm.com's mobile app, you always have an eye on your home or buisness.</p>
+								<img class="is-hidden-desktop" src="images/alarm/iphone_control.png"></a><hr>
 
 								<br>
-								<button class="iphone-features" id="locks-description">
+								<a class="iphone_features" onclick="showLocks()" id="locks-description">
 								<h1 class="title">Unlock your home, no keys required.</h1><p class="subtitle">No more leaving a key under the mat.</p>
-								<img class="is-hidden-desktop" src="images/alarm/iphone_locks.png"></button><hr>
+								<img class="is-hidden-desktop" src="images/alarm/iphone_locks.png"></a><hr>
 
 								<br>
-								<button class="iphone-features" id="arming-description">
+								<a class="iphone_features" onclick="showArming()" id="arming-description">
 								<h1 class="title">Arm or disarm your system anytime.</h1><p class="subtitle">One less code you have to remeber.</p>
-								<img class="is-hidden-desktop" src="images/alarm/iphone_arming_disarmed.png"></button>
+								<img class="is-hidden-desktop" src="images/alarm/iphone_arming_disarmed.png"></a><hr>
 								
 
 							</div>
@@ -124,7 +124,7 @@
 
 </body>
 	
-	<script type="text/javascript">	
+	<script>	
 		function navtoggle() {
 			var d = document.getElementById("navbar");
 			if (d.classList.contains("is-active")) {
@@ -133,27 +133,25 @@
 				d.classList.add("is-active");
 			}
 		}
-	</script>
-	<script type="text/javascript">
-		$("#control-description").on('click', function(a) {
-			$(".iphone-features").removeClass('testing');
-			$("#control-description").toggleClass('testing');
+		function showControl() {
 			var e = document.getElementById("iphone-picture").style.backgroundImage = "url('images/alarm/iphone_control.png')";
-		})
-	</script>
-	<script type="text/javascript">
-		$("#locks-description").on('click', function(a) {
-			$(".iphone-features").removeClass('testing');
-			$("#locks-description").toggleClass('testing');
-		var e = document.getElementById("iphone-picture").style.backgroundImage = "url('images/alarm/iphone_locks.png')";
-	    })
-	</script>
-	<script type="text/javascript">
-		$("#arming-description").on('click', function(a) {
-			$(".iphone-features").removeClass('testing');
-			$("#arming-description").toggleClass('testing');
-		var e = document.getElementById("iphone-picture").style.backgroundImage = "url('images/alarm/iphone_arming_disarmed.png')";
-	    })
-	</script>
+			var f = document.getElementById("locks-description").style.color = "#69707a";
+			var g = document.getElementById("control-descripction").style.color = "black";
+			var h = document.getElementById("arming-description").style.color = "#69707a";
+		}
+		function showLocks() {
+			var e = document.getElementById("iphone-picture").style.backgroundImage = "url('images/alarm/iphone_locks.png')";
+			var f = document.getElementById("control-descripction").style.color = "#69707a";
+			var g = document.getElementById("locks-description").style.color = "black";
+		}
+		function showArming() {
+			var e = document.getElementById("iphone-picture").style.backgroundImage = "url('images/alarm/iphone_arming_disarmed.png')";
+			var f = document.getElementById("control-descripction").style.color = "#69707a";
+			var g = document.getElementById("arming-description").style.color = "black";
+			var h = document.getElementById("locks-description").style.color = "#69707a";
+		}
+	</script>	 
+
+		
 		
 	</html>

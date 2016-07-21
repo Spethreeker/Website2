@@ -384,6 +384,15 @@ table th {
   .higher{
     height: 500px;
   }
+  .iphone-features{
+    height: 95px;
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .iphone-features:hover{
+  background-color: #D3D3D3;
+  color: black;
+}
 }
 
 @media screen and (min-width: 980px) and (max-width: 1179px) {
@@ -5176,10 +5185,14 @@ line-height: 20px;
 }
 
 }
-#control-descripction{
+#control-description{
   color: black;
 }
-
+#learnmore{
+  position: relative;
+  left: 50px; 
+  bottom: 100px;
+}
 #levelitem{
   display: none;
 }
@@ -5199,9 +5212,7 @@ line-height: 20px;
   padding-bottom: 20px;
 }
 
-.iphone_features{
-  color: #69707a;
-}
+
 .alarms{
  background-image: url("../images/Smart_stat_hero_shot.jpg");
  background-size: 600px 250px;
@@ -5222,16 +5233,31 @@ line-height: 20px;
 .desc{
   color: black;
 }
+.iphone-features{
+  color: #69707a;
+  background-color: #f5f7fa;
+  border: 0 none;
+  border-radius: 2px;
+ -webkit-transition: color, background-color .6s ease-out;
+  -moz-transition: color, background-color .6s ease-out;
+  transition: color, background-color .6s ease-out;
+  //* Changes height and hover on touch*//
+}
+.iphone-features:focus{
+  outline-color: #97cd76 !important;
+}
+.iphone-features:active{
+  background-color: #bababa;
+}
 .super-padded{
   padding: 100px 100px;
 }
 .test{
   border-radius: 50px;
 }
-#learnmore{
-  position: relative;
-  left: 50px; 
-  bottom: 100px;
+.testing{
+  background-color: #D3D3D3;
+  color: black;
 }
 .nomargin{
   margin: none;
