@@ -393,6 +393,10 @@ table th {
   background-color: #D3D3D3;
   color: black;
 }
+.testing{
+  background-color: #69707a !important;
+  color: #fff !important;
+}
 }
 
 @media screen and (min-width: 980px) and (max-width: 1179px) {
@@ -5255,10 +5259,7 @@ line-height: 20px;
 .test{
   border-radius: 50px;
 }
-.testing{
-  background-color: #D3D3D3;
-  color: black;
-}
+
 .nomargin{
   margin: none;
 }
