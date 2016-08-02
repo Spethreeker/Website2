@@ -393,7 +393,7 @@ table th {
   background-color: #D3D3D3;
   color: black;
 }
-.testing{
+.alarms-clicked{
   background-color: #69707a !important;
   color: #fff !important;
 }
@@ -687,8 +687,13 @@ table th {
 
 @media screen and (max-width: 768px) {
   .is-hidden-mobile {
-    display: none !important;
+    display: none !important; 
   }
+    .index-category{
+   max-width: 300px;
+   max-height: 390px;
+   margin-left: 45px;
+  }    
 }
 
 @media screen and (min-width: 769px) {
@@ -5229,8 +5234,8 @@ line-height: 20px;
  background-position: center;
 }
 .card-words .box{
-  color: #1f1c1c;
-  background-color: inherit;
+  color: #f5f7fa;
+  background-color: #97cd76;
   -webkit-transition: color, background-color .3s ease;
   -moz-transition: color .3s ease;
   transition: color, background-color .3s ease;
@@ -5249,7 +5254,11 @@ line-height: 20px;
   color: #69707a;
   background-color: #f5f7fa;
   border: 0 none;
-  border-radius: 2px;
+  border-radius: 5px;
+  padding-top: 15px;
+    padding-bottom: 10px;
+  word-wrap: break-word;
+  height: auto;
  -webkit-transition: color, background-color .6s ease-out;
   -moz-transition: color, background-color .6s ease-out;
   transition: color, background-color .6s ease-out;
@@ -5264,17 +5273,12 @@ line-height: 20px;
 .super-padded{
   padding: 100px 100px;
 }
-.index-category{
-  max-width: 300px;
-  max-height: 390px;
-
-}
 .index-picture{
   border-radius: 50px;
   max-width: 250px;
-  max-height: 250px
+  max-height: 250px;
+    margin: auto;
 }
-
 .nomargin{
   margin: none;
 }
@@ -5305,10 +5309,11 @@ background-color: #a5d489;
  border-color: transparent;
   color: white;
 }
-.notification.is-success.service{
+.service{
   background: #97cd76;
  border-color: transparent;
   color: white;
+    border-radius: 2px;
   -webkit-transition: background .3s ease;
   -moz-transition: background .3s ease;
   transition: background .3s ease;

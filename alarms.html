@@ -6,6 +6,7 @@
 	<meta name="viewport" content="initial-scale=1">
 	<title>Alarm Systems - Protech</title>
 	<link rel="stylesheet" href="css/bulma.css" media="screen" title="no title" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.css" media="screen" title="no title" type="text/css">
 	<link rel="icon" type="image/png" href="images/logos/32x32.png">
 	</script>
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -22,39 +23,45 @@
 </head>
 <body>
 <div class="hero is-dark is-bold">
-	<div class="hero-body">
-		<div class="container has-text-centered" id="logo">
-			<img src="images/protech-the-computer-guys.png" alt="Protech the computer guys" id="logo">
-		</div>
-	</div>
-	<h1 class="subtitle has-text-centered" id="address">109 South Davis Avenue &#8901; Cleveland, MS &#8901; 662-545-3465</h1>
-	<div class="hero-foot">
-		<div class="level">
-			<div class="level-right">
-				<a class="icon is-medium" href="https://www.facebook.com/Myputerguys/" target="_blank">
-					<i class="fa fa-facebook-official is-hidden-mobile" aria-hidden="true"></i>
-				</a>
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<img src="../images/protech-the-computer-guys.png" alt="Our Protech logo" title="Protech, The Computer Guys" id="logo">
 			</div>
-					<div class="level-item" id="levelitem">
-						<p class="title has-text-centered">Protech: The Computer Guys</p>
+		</div>
+		<p class="subtitle has-text-centered">109 South Davis Avenue &#8901; Cleveland, MS &#8901; 662-545-3465</p>
+		<div class="hero-foot">
+			<div class="level">
+				<div class="level-right is-hidden-mobile">
+					<a class="icon is-medium" href="https://www.facebook.com/Myputerguys/" target="_blank">
+						<i class="fa fa-facebook-official has-text-centered" aria-hidden="true"></i>
+					</a>
+				</div>
+						<div class="level-item" id="levelitem">
+							<p class="title has-text-centered">Protech: The Computer Guys</p>
+						</div>
+				<nav class="nav is-shadowed">
+					<div class="nav-right nav-menu" id="navbar">
+						<a class="nav-item is-tab" href="index.html">Home</a>
+						<a class="nav-item is-tab" href="instore/index.html">In-Store Services</a>
+						<a class="nav-item is-tab">Buisness Services</a>
+						<a class="nav-item is-tab">Our Location</a>
+						<a class="nav-item is-tab" id=contactbutton href="contact.html">Contact</a>
 					</div>
-			<nav class="nav is-shadowed">
-				<div class="nav-right nav-menu" id="navbar">
-					<a class="nav-item is-tab" href="index.html">Home</a>
-					<a class="nav-item is-tab" href="instore/index.html">In-Store Services</a>
-					<a class="nav-item is-tab">Buisness Services</a>
-					<a class="nav-item is-tab">Our Location</a>
-					<a class="nav-item is-tab" id=contactbutton href="contact.html">Contact</a>
-				</div>
-				<div class="nav-toggle" onclick="navtoggle()">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</nav>
+					<div class="nav-toggle success" onclick="navtoggle()">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					
+					<span class="nav-toggle">
+						<a class="icon is-medium" href="https://www.facebook.com/Myputerguys/" target="_blank">
+						<i class="fa fa-facebook-official has-text-centered" aria-hidden="true"></i>
+					</a>
+					</span>
+				</nav>
+			</div>
 		</div>
 	</div>
-</div>
 	<br>
 	<div class="container has-text-centered">
 		<h1 class="title is-2 has-text-centered">Security systems today can do more than ever.</h1><p class="subtitle is-4 has-text-centered">And we know everything they can do.</p>		
@@ -62,15 +69,15 @@
 					<div class="columns is-gapless higher">
 						<div class="column notification is-light">
 							<div class="notification is-light" id="morepadding">
-								<button class="iphone-features testing" id="control-description"><h1 class="title">Control your home from anywhere.</h1><p class="subtitle">Keep an eye on your home or buisness, always.</p>
+								<button class="iphone-features alarms-clicked" id="control-description"><h1 class="title">Control your system from anywhere.</h1><p class="subtitle">Keep an eye on your home or buisness at all times with the Alarm.com App on iPhone and Android.</p>
 								<img class="is-hidden-desktop" src="images/alarm/iphone_control.png"></button><hr>
 
-								<br>
+								
 								<button class="iphone-features" id="locks-description">
 								<h1 class="title">Unlock your home, no keys required.</h1><p class="subtitle">No more leaving a key under the mat.</p>
 								<img class="is-hidden-desktop" src="images/alarm/iphone_locks.png"></button><hr>
 
-								<br>
+								
 								<button class="iphone-features" id="arming-description">
 								<h1 class="title">Arm or disarm your system anytime.</h1><p class="subtitle">One less code you have to remeber.</p>
 								<img class="is-hidden-desktop" src="images/alarm/iphone_arming_disarmed.png"></button>
@@ -134,22 +141,22 @@
 	</script>
 	<script type="text/javascript">
 		$("#control-description").on('click', function(a) {
-			$(".iphone-features").removeClass('testing');
-			$("#control-description").toggleClass('testing');
+			$(".iphone-features").removeClass('alarms-clicked');
+			$("#control-description").toggleClass('alarms-clicked');
 			var e = document.getElementById("iphone-picture").style.backgroundImage = "url('images/alarm/iphone_control.png')";
 		})
 	</script>
 	<script type="text/javascript">
 		$("#locks-description").on('click', function(a) {
-			$(".iphone-features").removeClass('testing');
-			$("#locks-description").toggleClass('testing');
+			$(".iphone-features").removeClass('alarms-clicked');
+			$("#locks-description").toggleClass('alarms-clicked');
 		var e = document.getElementById("iphone-picture").style.backgroundImage = "url('images/alarm/iphone_locks.png')";
 	    })
 	</script>
 	<script type="text/javascript">
 		$("#arming-description").on('click', function(a) {
-			$(".iphone-features").removeClass('testing');
-			$("#arming-description").toggleClass('testing');
+			$(".iphone-features").removeClass('alarms-clicked');
+			$("#arming-description").toggleClass('alarms-clicked');
 		var e = document.getElementById("iphone-picture").style.backgroundImage = "url('images/alarm/iphone_arming_disarmed.png')";
 	    })
 	</script>
