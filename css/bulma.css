@@ -1321,13 +1321,13 @@ a.container{
   color: #222324;
   font-weight: 300;
   line-height: 1.125;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .content h1:not(:first-child),
 .content h2:not(:first-child),
 .content h3:not(:first-child) {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .content blockquote {
@@ -1368,12 +1368,12 @@ a.container{
 }
 
 h2:first-child {
-    padding-top: 0
+    padding-top: 15px;
 }
 
 @media (min-width: 30em) {
     h2 {
-        padding-top: 1.5em;
+        padding-top: .5em;
         padding-bottom: .75em
     }
 }
@@ -1393,7 +1393,7 @@ h2:first-child {
 }
 
 .content ul {
-  list-style: disc outside;
+  list-style: disc inside;
   margin-left: 2em;
   margin-right: 2em;
   margin-top: 1em;
@@ -1422,6 +1422,9 @@ h2:first-child {
 
 .content.is-large code {
   font-size: 18px;
+}
+.content p {
+    line-height: 1.4;
 }
 
 .input, .textarea {
@@ -2760,13 +2763,6 @@ h2:first-child {
 
   .title.is-normal strong {
     font-weight: 700;
-  }
-
-  @media screen and (min-width: 769px) {
-    .title + .subtitle {
-      margin-top: -15px;
-    }
-
   }
 
   .subtitle {
@@ -5100,6 +5096,15 @@ position: absolute;
   .nav-toggle {
     display: none;
   }
+    .service a:hover{
+    color:#fff;
+    background-color: #a5d489; 
+ }
+    .notification.is-success.phone:hover{
+     background: #97cd76;
+     border-color: transparent;
+      color: white;
+ }
 }
 
 .nav-item {
@@ -5300,15 +5305,7 @@ margin-top: -10px;
 .circlepic.hardwarepic{
   background-image: url(../images/server_pic2.jpg);
 }
-.service a:hover{
-color:#fff;
-background-color: #a5d489; 
-}
-.notification.is-success.phone:hover{
- background: #97cd76;
- border-color: transparent;
-  color: white;
-}
+
 .service{
   background: #97cd76;
  border-color: transparent;
@@ -6060,9 +6057,9 @@ a.panel-block:hover {
   .hero.is-light .nav-toggle span {
     background: #69707a;
   }
-  .hero.is-light .nav-toggle:hover {
+  //*.hero.is-light .nav-toggle:hover {
     background: rgba(17, 17, 17, 0.1);
-  }
+  }*//
   .hero.is-light .nav-toggle.is-active span {
     background: #69707a;
   }
@@ -6161,6 +6158,7 @@ a.panel-block:hover {
   .hero.is-dark .nav-toggle:hover {
     background: rgba(17, 17, 17, 0.1);
   }
+    
   .hero.is-dark .nav-toggle.is-active span {
     background: #f5f7fa;
   }
