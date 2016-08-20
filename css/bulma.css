@@ -33,7 +33,7 @@ html {
 }
 
 ul {
-  list-style: ;
+  list-style: none;
 }
 
 blockquote, q {
@@ -5252,6 +5252,15 @@ line-height: 20px;
 .desc{
   color: black;
 }
+.drop-down{
+background-color: #97cd78; 
+}
+.drop-down li{
+    background-color: #97cd78;
+    color: white;
+    margin: 2px;
+  
+}
 .footer-picture{
   max-height: 50px;
 }
@@ -5321,7 +5330,18 @@ margin-top: -10px;
 .notification.is-success.service:hover .button{
   background: #a5d489;
 }
-
+h1::selection, h2::selection, p::selection, li::selection {
+  background: #97cd76;
+}
+li .drop-down-container{
+   display: none;
+}
+li:hover >.drop-down-container{
+    display: block;
+    position:absolute;
+    z-index: 99;
+    opacity: 1;    
+}
 //*Stop Custom*//
 
 .nav-item a.is-tab:hover,
@@ -5892,7 +5912,7 @@ a.panel-block:hover {
 }
 
 .hero-buttons {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 @media screen and (max-width: 768px) {
@@ -5912,11 +5932,11 @@ a.panel-block:hover {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: block;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
         -ms-flex-pack: center;
-            justify-content: center;
+            justify-content: flex-start;
   }
   .hero-buttons .button:not(:last-child), .hero-buttons .pagination a:not(:last-child), .pagination .hero-buttons a:not(:last-child) {
     margin-right: 20px;
