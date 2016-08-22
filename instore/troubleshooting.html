@@ -36,13 +36,21 @@
 							<p class="title has-text-centered">Protech: The Computer Guys</p>
 						</div>
 						<nav class="nav is-shadowed">			
-							<div class="nav-right nav-menu" id="navbar">
-								<a class="nav-item is-tab" href="../index.html">Home</a>
-								<a class="nav-item is-tab" href="index.html">In-Store Services</a>
-								<a class="nav-item is-tab">Buisness Services</a>
-								<a class="nav-item is-tab">Our Location</a>
-								<a class="nav-item is-tab" id="contactbutton" href="../contact.html">Contact</a>
-							</div>
+							<ul class="nav-right nav-menu" id="navbar">
+                        <li><a class="nav-item is-tab" href="../index.html">Home</a></li>
+                        <li><a class="nav-item is-tab is-active contact-button" href="index.html">In-Store Services</a>
+                            <div class="drop-down-container">
+                                <ul class="drop-down">
+                                    <li><a class="button is-success" href="cleaning.html">PC/Mac Cleaning</a></li>
+                                    <li><a class="button is-success" href="data.html">Data Transfer/Recovery</a></li>
+                                    <li><a class="button is-success" href="">PC/Mac Repair</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a class="nav-item is-tab">Buisness Services</a></li>
+                        <li><a class="nav-item is-tab">Our Location</a></li>
+                        <li><a class="nav-item is-tab" id=contactbutton href="../contact.html">Contact</a></li>
+					</ul>
 							<div class="nav-toggle" onclick="navtoggle()">
 								<span></span>
 								<span></span>
