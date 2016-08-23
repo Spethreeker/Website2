@@ -2188,7 +2188,7 @@ h2:first-child {
 }
 
 .notification.is-clear{
-  opacity: 1;
+  opacity: 0;
   color: inherit;
 }
 .notification.is-white {
@@ -5081,7 +5081,7 @@ position: absolute;
       -ms-flex-pack: center;
           justify-content: center;
   overflow: hidden;
-  position: fixed;
+    position: fixed;
   z-index: 1986;
 }
 
@@ -5264,7 +5264,7 @@ line-height: 20px;
   color: black;
 }
 .drop-down{
-    width: 100%;
+    width: 134.5px;;
 }
 .footer-picture{
   max-height: 50px;
@@ -5293,10 +5293,17 @@ line-height: 20px;
   padding: 100px 100px;
 }
 .index-picture{
-  border-radius: 50px;
+  border-radius: 5px;
   max-width: 250px;
   max-height: 250px;
-    margin: auto;
+  margin: auto;
+}
+
+.iphone-repair-background{
+    background-image:url("../images/iphone_repair_background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 .nomargin{
   margin: none;
@@ -5329,6 +5336,13 @@ margin-top: -10px;
   -moz-transition: background .3s ease;
   transition: background .3s ease;
 }
+.title-text{
+    font-size: 30px;
+}
+.transparent{
+   background-color: rgba(0,0,0,.0);
+    color: white;
+}
 .notification.is-success.service:hover{
   background: #a5d489;
 }
@@ -5340,20 +5354,22 @@ h1::selection, h2::selection, p::selection, li::selection {
 }
 li .drop-down-container{
     display: none;
-   
+    visibility: visible;
     position: absolute;
-    border-radius: 5px;
+    border-radius: 0px;
 
 }
 li:hover >.drop-down-container{
-  display: block;   
+display: block;
 }
 li .drop-down .button{
-    width: 135px;
+    width: 100%;
     border-radius: 0px;
     white-space: normal;
     height: 55px;
     border-color: #97cd76;
+    line-height: 1.2;
+    
 }
 li:hover > .drop-down-container{
   -webkit-perspective: 1000px;
