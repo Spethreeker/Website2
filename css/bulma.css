@@ -1364,6 +1364,10 @@ a.container{
         font-size: 2em;
         line-height: 1.125em
     }
+      h2 {
+        padding-top: 1em;
+        padding-bottom: .5em
+    }
 }
 
 h2:first-child {
@@ -1376,14 +1380,6 @@ h2:first-child {
         padding-bottom: .75em
     }
 }
-
-@media (min-width: 48em) {
-    h2 {
-        padding-top: 1em;
-        padding-bottom: .5em
-    }
-}
-
 .content ol {
   list-style: decimal outside;
   margin-left: 2em;
