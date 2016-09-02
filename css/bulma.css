@@ -941,6 +941,7 @@ a.container{
   background: #f5f7fa;
   border-color: transparent;
   color: #69707a;
+  transition: background .3 ease;
 }
 
 .button.is-light:hover, .pagination a.is-light:hover, .button.is-light:focus, .pagination a.is-light:focus {
@@ -982,6 +983,7 @@ a.container{
   background: #69707a;
   border-color: transparent;
   color: #f5f7fa;
+  transition: background .3 ease;
 }
 
 .button.is-dark:hover, .pagination a.is-dark:hover, .button.is-dark:focus, .pagination a.is-dark:focus {
@@ -5236,6 +5238,9 @@ line-height: 20px;
  background-repeat: no-repeat;
  background-position: center;
 }
+.button ~ .index-category:hover{
+    background: green;
+}
 .card-words{
   color: #69707a;
   background-color: #97cd76;
@@ -5294,6 +5299,9 @@ line-height: 20px;
   max-width: 250px;
   max-height: 250px;
   margin: auto;
+}
+.index-category{
+    
 }
 
 .iphone-repair-background{
