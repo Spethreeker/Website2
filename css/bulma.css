@@ -4766,14 +4766,14 @@ position: absolute;
 
 .menu-list a {
   border-radius: 2px;
-  color: #69707a;
-  display: block;
+  color: #f5f7fa;
+  display: inline-block;
   padding: 5px 10px;
 }
 
 .menu-list a:hover {
-  background: #f5f7fa;
-  color: #1fc8db;
+  
+  color: #97cd76;
 }
 
 .menu-list a.is-active {
@@ -4789,7 +4789,7 @@ position: absolute;
 
 .menu-label {
   color: #aeb1b5;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 1px;
   margin-bottom: 5px;
   text-transform: uppercase;
@@ -5306,6 +5306,9 @@ line-height: 20px;
     background-repeat: no-repeat;
     background-position: top;
     color: white;
+}
+.is-last{
+    margin-bottom: 20px;
 }
 .nomargin{
   margin: none;
@@ -6135,9 +6138,12 @@ a.panel-block:hover {
   .hero.is-dark .nav-menu {
     background: #69707a;
   }
-  .hero-body{
+ /* .hero-body{
     display: none;
-  }
+  }*/
+    #logo{
+        display: none;
+    }
   #levelitem{
     display: block;
   }
