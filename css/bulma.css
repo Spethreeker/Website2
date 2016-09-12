@@ -5322,6 +5322,17 @@ margin-top: -10px;
 .light-font{
     font-variant: 'Railway ; 
 }
+.macbook-picture{
+    background-image: url(../images/macbook_pro_repair.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: white;    
+}
+.macbook-picture:hover{
+    opacity: 0.8;
+}
+
 .nomargin{
   margin: none;
 }
@@ -5331,7 +5342,17 @@ margin-top: -10px;
 .margin-top-20px{
   margin-top: 0px;
 }
-
+.picture-overlay{
+    opacity: 1;
+  -webkit-transition: color 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+.picture-overlay:hover{
+    opacity: 0.8
+    -moz-box-shadow: 0 0 4px #ccc;
+    -webkit-box-shadow: 0 0 4px #ccc; 
+    box-shadow: 0 0 4px #ccc; 
+}
 .service{
   background: #97cd76;
  border-color: transparent;
