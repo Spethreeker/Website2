@@ -5234,6 +5234,10 @@ line-height: 20px;
  background-repeat: no-repeat;
  background-position: center;
 }
+.before-button{
+margin-bottom: 10px;
+margin-top: -10px;
+}
 .button ~ .index-category:hover{
     background: green;
 }
@@ -5247,6 +5251,13 @@ line-height: 20px;
 }
 .card-words:hover .box{
   background-color: #a5d489;
+}
+.circlepic.alarmpic{
+ background-image: url("../images/simonxt.jpg");
+ background-size: 100%
+}
+.circlepic.hardwarepic{
+  background-image: url(../images/server_pic2.jpg);
 }
 .contact-button{
     background-color: inherit;
@@ -5287,9 +5298,7 @@ line-height: 20px;
 .iphone-features:active{
   background-color: #bababa;
 }
-.super-padded{
-  padding: 100px 100px;
-}
+
 .index-picture{
   border-radius: 5px;
   max-width: 250px;
@@ -5310,6 +5319,9 @@ line-height: 20px;
 .is-last{
     margin-bottom: 20px;
 }
+.light-font{
+    font-variant: 'Railway ; 
+}
 .nomargin{
   margin: none;
 }
@@ -5318,18 +5330,6 @@ line-height: 20px;
 }
 .margin-top-20px{
   margin-top: 0px;
-}
-.before-button{
-margin-bottom: 10px;
-margin-top: -10px;
-}
-
-.circlepic.alarmpic{
- background-image: url("../images/simonxt.jpg");
- background-size: 100%
-}
-.circlepic.hardwarepic{
-  background-image: url(../images/server_pic2.jpg);
 }
 
 .service{
@@ -5340,6 +5340,9 @@ margin-top: -10px;
   -webkit-transition: background .3s ease;
   -moz-transition: background .3s ease;
   transition: background .3s ease;
+}
+.super-padded{
+  padding: 100px 100px;
 }
 .title-text{
     font-size: 30px;
