@@ -5304,6 +5304,11 @@ margin-top: -10px;
   max-width: 250px;
   max-height: 250px;
   margin: auto;
+  opacity: 1;
+  -webkit-transition: opacity .3s ease-out; 
+}
+.index-picture:hover{
+    opacity: 0.8;
 }
 .index-category{
     
@@ -5311,7 +5316,7 @@ margin-top: -10px;
 
 .iphone-repair-background{
     background-image:url("../images/iphone_repair_background.jpg");
-    background-size: cover;
+    background-size:contain;
     background-repeat: no-repeat;
     background-position: top;
     color: white;
@@ -5323,7 +5328,7 @@ margin-top: -10px;
     font-variant: 'Railway ; 
 }
 .macbook-picture{
-    background-image: url(../images/macbook_pro_repair.jpg);
+    background-image: url(../images/macbook_repair.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
