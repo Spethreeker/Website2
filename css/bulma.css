@@ -4300,6 +4300,7 @@ h2:first-child {
 }
 .highlight .c {
     color: #93a1a1;
+    background-color: inherit;
 }
 .highlight .err,
 .highlight .g {
@@ -5165,6 +5166,8 @@ a.nav-item.is-tab {
     margin: auto;
     opacity: 1;
     -webkit-transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
 }
 .index-picture:hover {
     opacity: 0.8;
@@ -5187,9 +5190,7 @@ a.nav-item.is-tab {
     background-position:center;
     color: white;
 }
-.macbook-picture:hover {
-    opacity: 0.8;
-}
+
 .nomargin {
     margin: none;
 }
@@ -5201,11 +5202,13 @@ a.nav-item.is-tab {
 }
 .picture-overlay {
     opacity: 1;
-    -webkit-transition: color 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease;
 }
 .picture-overlay:hover {
-    opacity: 0.8 -moz-box-shadow: 0 0 4px #ccc;
+    opacity: 0.8;
+    -moz-box-shadow: 0 0 4px #ccc;
     -webkit-box-shadow: 0 0 4px #ccc;
     box-shadow: 0 0 4px #ccc;
 }
