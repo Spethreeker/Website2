@@ -5184,7 +5184,9 @@ a.nav-item.is-tab {
     margin-bottom: 20px;
 }
 .macbook-picture {
-    background-image: url(../images/macbook_repair_banner.jpeg);
+    background-image: url('../images/macbook_repair_banner.jpeg');
+
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
