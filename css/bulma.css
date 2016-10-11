@@ -4153,110 +4153,6 @@ h2:first-child {
     }
 }
 
-@media screen and (min-width: 769px) {
-    .tile:not(.is-child) {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    
-    .tile.is-1 {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        width: 8.33333%;
-    }
-    
-    .tile.is-2 {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        width: 16.66667%;
-    }
-    
-    .tile.is-3 {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        width: 25%;
-    }
-    
-    .tile.is-4 {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        width: 33.33333%;
-    }
-    
-    .tile.is-5 {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        width: 41.66667%;
-    }
-    
-    .tile.is-6 {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        width: 50%;
-    }
-    
-    .tile.is-7 {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        width: 58.33333%;
-    }
-    
-    .tile.is-8 {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        width: 66.66667%;
-    }
-    
-    .tile.is-9 {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        width: 75%;
-    }
-    
-    .tile.is-10 {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        width: 83.33333%;
-    }
-    
-    .tile.is-11 {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        width: 91.66667%;
-    }
-    
-    .tile.is-12 {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        width: 100%;
-    }
-}
 .highlight {
     background-color: #fdf6e3;
     color: #586e75;
@@ -4369,107 +4265,6 @@ h2:first-child {
         -ms-flex: 1;
         flex: 1;
     }
-}
-.media-number {
-    background: #f5f7fa;
-    border-radius: 290486px;
-    display: inline-block;
-    font-size: 18px;
-    height: 32px;
-    line-height: 24px;
-    min-width: 32px;
-    padding: 4px 8px;
-    text-align: center;
-    vertical-align: top;
-}
-@media screen and (max-width: 768px) {
-    .media-number {
-        margin-bottom: 10px;
-    }
-}
-@media screen and (min-width: 769px) {
-    .media-number {
-        margin-right: 10px;
-    }
-}
-.media-left {
-    margin-right: 10px;
-}
-.media-right {
-    margin-left: 10px;
-}
-.media-content {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    text-align: left;
-}
-.media {
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    text-align: left;
-}
-.media .content:not(:last-child) {
-    margin-bottom: 10px;
-}
-.media .media {
-    border-top: 1px solid rgba(211, 214, 219, 0.5);
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    padding-top: 10px;
-}
-.media .media .textarea {
-    border-radius: 2px;
-    font-size: 11px;
-    height: 24px;
-    line-height: 16px;
-    padding-left: 6px;
-    padding-right: 6px;
-}
-.media .media .button,
-.media .media .pagination a,
-.pagination .media .media a {
-    border-radius: 2px;
-    font-size: 11px;
-    height: 24px;
-    line-height: 16px;
-    padding-left: 6px;
-    padding-right: 6px;
-}
-.media .media .content:not(:last-child),
-.media .media .control:not(:last-child) {
-    margin-bottom: 5px;
-}
-.media .media .media {
-    font-size: 12px;
-    padding-top: 5px;
-}
-.media .media .media + .media {
-    margin-top: 5px;
-}
-.media + .media {
-    border-top: 1px solid rgba(211, 214, 219, 0.5);
-    margin-top: 10px;
-    padding-top: 10px;
-}
-.media.is-large + .media {
-    margin-top: 20px;
-    padding-top: 20px;
-}
-@media screen and (min-width: 769px) {
-    .media.is-large .media-number {
-        margin-right: 20px;
-    }
-}
 .menu-nav a {
     display: block;
     padding: 5px 10px;
@@ -4870,16 +4665,13 @@ a.nav-item.is-tab {
 #instore-title-box {
     margin-bottom: 0px;
 }
-#learnmore {
-    position: relative;
-    left: 50px;
-    bottom: 100px;
+
 }
 #levelitem {
     display: none;
 }
 #logo {
-    height: 150px;
+    height: 130px;
 }
 #morepadding {
     padding-top: 20px;
@@ -4925,6 +4717,9 @@ a.nav-item.is-tab {
 .contact-button:hover {
     color: white;
     background-color:#97cd76;
+}
+.content h2{
+    text-align: center;
 }
 .desc {
     color: black;
@@ -4984,15 +4779,12 @@ a.nav-item.is-tab {
     margin-bottom: 20px;
 }
 .macbook-picture {
-    background-image: url('../images/macbook_repair_banner.jpeg');
-
-    
+    background-image: url('../images/macbook_repair_banner.jpeg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     color: white;
 }
-
 .nomargin {
     margin: none;
 }
