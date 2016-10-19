@@ -2863,8 +2863,8 @@ h2:first-child {
     display: block;
     height: 50px;
     position: relative;
-    width: 100%;
-    margin: auto auto;
+    width: 80px;
+   
 }
 .hamburger span,
 .nav-toggle span {
@@ -4950,18 +4950,15 @@ a.nav-item.is-tab.is-active {
         box-shadow: 0 4px 7px rgba(17,
         17,
         17,
-        0.1);
-        left: 0;
-        display: none;
-        right: 0;
+        0.1);  
+        display: none;  
         top: 100%;
         position: absolute;
+        text-align: left;
+        line-height: 1.8;
     }
     .nav-menu .nav-item {
-        border-top: 1px solid rgba(211,
-        214,
-        219,
-        0.5);
+        
         padding: 10px;
         text-align: center;
     }
