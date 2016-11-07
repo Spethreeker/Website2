@@ -2864,7 +2864,8 @@ h2:first-child {
     height: 50px;
     position: relative;
     width: 80px;
-   
+    
+    
 }
 .hamburger span,
 .nav-toggle span {
@@ -2899,10 +2900,7 @@ h2:first-child {
 .nav-toggle span:nth-child(3) {
     margin-top: 4px;
 }
-.hamburger:hover,
-.nav-toggle:hover {
-    background: #f5f7fa;
-}
+
 .hamburger.is-active span,
 .is-active.nav-toggle span {
     background: #1fc8db;
@@ -4574,7 +4572,6 @@ h2:first-child {
     -ms-flex-pack: center;
     justify-content: center;
     padding: 10px;
-    behavior: url(css/pie.htc);
     -webkit-transition: color .2s ease;
 }
 .nav-item a {
@@ -4954,17 +4951,18 @@ a.nav-item.is-tab.is-active {
         display: none;  
         top: 100%;
         position: absolute;
+        margin-left: auto;
         text-align: left;
-        line-height: 1.8;
+        line-height: 2;
     }
-    .nav-menu .nav-item {
-        
+    .nav-menu .nav-item {       
         padding: 10px;
         text-align: center;
     }
     .nav-menu.is-active {
         display: block;
     }
+        
 }
 .nav-left {
     -webkit-box-align: stretch;
