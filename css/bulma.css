@@ -5569,12 +5569,6 @@ a.panel-block:hover {
     .hero.is-dark .nav-toggle span {
         background: #f5f7fa;
     }
-    .hero.is-dark .nav-toggle:hover {
-        background: rgba(17,
-        17,
-        17,
-        0.1);
-    }
     .hero.is-dark .nav-toggle.is-active span {
         background: #f5f7fa;
     }
@@ -5583,7 +5577,10 @@ a.panel-block:hover {
         247,
         250,
         0.2);
+        color:#f5f7fa;
+        }
     }
+    
 }
 @media screen and (min-width: 769px) {
     .hero.is-medium .hero-body {
