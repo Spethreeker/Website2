@@ -41,22 +41,23 @@
                     </div>
 				<nav class="nav is-shadowed">
 					<ul class="nav-right nav-menu" id="navbar">
-                        <li><a class="nav-item is-tab" href="../index.html">Home</a></li>
-                        <li><a class="nav-item is-tab is-active" href="index.html">In-Store Services</a>
+                        <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab" href="../index.html">Home</a></li>
+                        <li><span class="icon is-hidden-desktop"><i class="fa fa-shopping-basket" aria-hidden="true"></i></span><a class="nav-item is-tab" href="index.html">In-Store Services</a>
                             <div class="drop-down-container">
                                 <ul class="drop-down">
                                     <li><a class="button is-success" href="cleaning.html">PC/Mac Cleaning</a></li>
                                     <li><a class="button is-success" href="data.html">Data Transfer/Recovery</a></li>
-                                    <li><a class="button is-success" href="computer_repair.html">PC/Mac Repair</a></li>
+                                    <li><a class="button is-success" href="">PC/Mac Repair</a></li>
                                     <li><a class="button is-success" href="iphone_repair.html">iPhone Repair</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li><a class="nav-item is-tab">Buisness Services</a></li>
-                        <li><a class="nav-item is-tab">Our Location</a></li>
-                        <li><a class="nav-item is-tab" id=contactbutton href="../contact.html">Contact</a></li>
+                        <li><span class="icon is-hidden-desktop"><i class="fa fa-building" aria-hidden="true"></i></span><a class="nav-item is-tab">Buisness Services</a></li>
+                        <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab">Our Location</a></li>
+                        <li><span class="icon is-hidden-desktop"><i class="fa fa-address-card-o" aria-hidden="true"></i></span><a class="nav-item is-tab" id=contactbutton href="../contact.html">Contact</a></li>
 					</ul>
-					<div class="nav-toggle" onclick="navtoggle()">
+                    
+					<div class="nav-toggle" onclick="navtoggle()" id="navtoggle">
 						<span></span>
 						<span></span>
 						<span></span>
@@ -78,7 +79,7 @@
 					<div class="notification has-text-centered" id="instore-title-box"><h1 class="title">Cleaning and Virus Removal</h1></div>
 					<div class="box desc">
 
-						<div class="content"><h2 class="title">What we do.</h2>
+						<div class="content">
 						<div class="content has-text-centered">									
                            <h1 class="has-text-centered">Pricing</h1>
                             <div class="columns has-text-centered">
@@ -90,6 +91,7 @@
 							     <h2 class="title">Deep-Cleaning<br>$119</h2>
 							     <p class="subtitle">Our deep-clean involves everything we do on the standard cleaning, but we also disassemble your device and clean off the fans and heatsinks, which can greatly increace your device's lifespan and performance.</p>
                                 </div>
+                            </div>
                                 <hr>
                                 <h2 class="title">What we do.</h2>
 
@@ -104,22 +106,12 @@
                             <h2 class="title">How long will it take?</h2>
                                 <p class="subtitle">On average, we spend about 1-3 days on your computer, but it can differ depending on how old and how infected your computer is.</p><p class="subtitle">For example, a laptop from 2005 thats extremely infected with bugs will take longer than a new Macbook with a broswer-plugin issue.</p><p class="subtitle"></p>
 
-                           <hr><h1 class="has-text-centered">Pricing</h1>
-                            <div class="columns has-text-centered">
-                                <div class="column">
-                                 <h2 class="title">Standard Cleaning<br>$99</h2>
-								 <p class="subtitle">Our standard service includes a virus and rootkit scan, a junkfile and cookie cleaning, registry repair, and malware cleaning. We also install Malwarebytes, an industry-renowned malware cleaning tool.</p>
-                                </div>
-                                <div class="column">
-							     <h2 class="title">Deep-Cleaning<br>$119</h2>
-							     <p class="subtitle">Our deep-clean involves everything we do on the standard cleaning, but we also disassemble your device and clean off the fans and heatsinks, which can greatly increase your device's lifespan and performance.</p>
-                                </div>
-
-                            </div><hr>
+                           
+                         
 							
 							</div>
 						</div>
-                        <a class="button is-pulled-left" href="index.html">Back to In-Store</a>
+                       
 					</div>
 
 				
@@ -168,13 +160,16 @@
 </footer>
 			<script>	
 				function navtoggle() {
-					var d = document.getElementById("navbar");
-					if (d.classList.contains("is-active")) {
-						d.classList.remove("is-active");
-					} else {
-						d.classList.add("is-active");
-					}
-				}
+        var d = document.getElementById("navbar");
+        var e = document.getElementById("navtoggle");
+        if (d.classList.contains("is-active")) {
+            d.classList.remove("is-active");
+            e.classList.remove("is-active");
+        } else {
+            d.classList.add("is-active");
+            e.classList.add("is-active");
+        }
+    }
 			</script>
 		</body>
 		</html>

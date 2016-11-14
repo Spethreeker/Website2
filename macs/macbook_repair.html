@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/font-awesome.css" media="screen" title="no title">
     <script src="https://use.fontawesome.com/dc54be7162.js"></script>
     <link rel="icon" type="image/png" href="../images/logos/32x32.png">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    
     <style>
         @import 'https://fonts.googleapis.com/css?family=Raleway';
     </style>
@@ -41,8 +41,8 @@
                     </div>
                     <nav class="nav is-shadowed">
                         <ul class="nav-right nav-menu" id="navbar">
-                            <li><a class="nav-item is-tab" href="../index.html">Home</a></li>
-                            <li><a class="nav-item is-tab is-active" href="../index.html">In-Store Services</a>
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab" href="../index.html">Home</a></li>
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-shopping-basket" aria-hidden="true"></i></span><a class="nav-item is-tab is-active" href="../index.html">In-Store Services</a>
                                 <div class="drop-down-container">
                                     <ul class="drop-down">
                                         <li><a class="button is-success" href="../instore/cleaning.html">PC/Mac Cleaning</a></li>
@@ -52,11 +52,11 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li><a class="nav-item is-tab">Buisness Services</a></li>
-                            <li><a class="nav-item is-tab">Our Location</a></li>
-                            <li><a class="nav-item is-tab" id=contactbutton href="../contact.html">Contact</a></li>
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-building" aria-hidden="true"></i></span><a class="nav-item is-tab">Buisness Services</a></li>
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab">Our Location</a></li>
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-address-card-o" aria-hidden="true"></i></span><a class="nav-item is-tab" id=contactbutton href="../contact.html">Contact</a></li>
                         </ul>
-                        <div class="nav-toggle" onclick="navtoggle()">
+                        <div class="nav-toggle" onclick="navtoggle()" id="navtoggle">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -167,12 +167,15 @@
     </div>
 </footer>
 <script>
-    function navtoggle() {
+   function navtoggle() {
         var d = document.getElementById("navbar");
+        var e = document.getElementById("navtoggle");
         if (d.classList.contains("is-active")) {
             d.classList.remove("is-active");
+            e.classList.remove("is-active");
         } else {
             d.classList.add("is-active");
+            e.classList.add("is-active");
         }
     }
 </script>

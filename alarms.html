@@ -6,9 +6,8 @@
 	<meta name="viewport" content="initial-scale=1">
 	<title>Alarm Systems - Protech</title>
 	<link rel="stylesheet" href="css/bulma.css" media="screen" title="no title" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.css" media="screen" title="no title" type="text/css">
 	<link rel="icon" type="image/png" href="images/logos/32x32.png">
-	</script>
+	<script src="https://use.fontawesome.com/7b542c7aed.js"></script>
 	
 	<style>
 	@import 'https://fonts.googleapis.com/css?family=Raleway:300,400';
@@ -41,22 +40,23 @@
                     </div>
 				<nav class="nav is-shadowed">
 					<ul class="nav-right nav-menu" id="navbar">
-                        <li><a class="nav-item is-tab" href="../index.html">Home</a></li>
-                        <li><a class="nav-item is-tab" href="instore/index.html">In-Store Services</a>
-                            <div class="drop-down-container">
-                                <ul class="drop-down">
-                                    <li><a class="button is-success" href="instore/cleaning.html">PC/Mac Cleaning</a></li>
-                                    <li><a class="button is-success" href="instore/data.html">Data Transfer/Recovery</a></li>
-                                    <li><a class="button is-success" href="">PC/Mac Repair</a></li>
-                                    <li><a class="button is-success" href="instore/iphone_repair.html">iPhone Repair</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a class="nav-item is-tab">Buisness Services</a></li>
-                        <li><a class="nav-item is-tab">Our Location</a></li>
-                        <li><a class="nav-item is-tab" id=contactbutton href="../contact.html">Contact</a></li>
+                        <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab" href="../index.html">Home</a></li>
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-shopping-basket" aria-hidden="true"></i></span><a class="nav-item is-tab" href="instore/index.html">In-Store Services</a>
+                                <div class="drop-down-container">
+                                    <ul class="drop-down">
+                                        <li><a class="button is-success" href="instore/cleaning.html">PC/Mac Cleaning</a></li>
+                                        <li><a class="button is-success" href="instore/computer_repair.html">PC/Mac Repair</a></li>
+                                        <li><a class="button is-success" href="instore/data.html">Data Transfer/Recovery</a></li>
+                                        <li><a class="button is-success" href="instore/iphone_repair.html">iPhone Repair</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-building" aria-hidden="true"></i></span><a class="nav-item is-tab">Buisness Services</a></li>
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab">Our Location</a></li>
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-address-card-o" aria-hidden="true"></i></span><a class="nav-item is-tab" id=contactbutton href="../contact.html">Contact</a></li>
 					</ul>
-					<div class="nav-toggle success" onclick="navtoggle()">
+					<div class="nav-toggle" onclick="navtoggle()" id="navtoggle">
 						<span></span>
 						<span></span>
 						<span></span>
@@ -152,13 +152,16 @@
 	
 	<script type="text/javascript">	
 		function navtoggle() {
-			var d = document.getElementById("navbar");
-			if (d.classList.contains("is-active")) {
-				d.classList.remove("is-active");
-			} else {
-				d.classList.add("is-active");
-			}
-		}
+        var d = document.getElementById("navbar");
+        var e = document.getElementById("navtoggle");
+        if (d.classList.contains("is-active")) {
+            d.classList.remove("is-active");
+            e.classList.remove("is-active");
+        } else {
+            d.classList.add("is-active");
+            e.classList.add("is-active");
+        }
+    }
 	</script>
 	<script type="text/javascript">
 		$("#control-description").on('click', function(a) {

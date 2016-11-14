@@ -2604,6 +2604,7 @@ h2:first-child {
         color: #222324;
         font-size: 26px;
         line-height: 1;
+        font-weight: 400;
     }
     
     .title code {
@@ -2900,13 +2901,8 @@ h2:first-child {
 .nav-toggle span:nth-child(3) {
     margin-top: 4px;
 }
-
-.hamburger.is-active span,
-.is-active.nav-toggle span {
-    background: #1fc8db;
-}
 .hamburger.is-active span:nth-child(1),
-.is-active.nav-toggle span:nth-child(1) {
+.nav-toggle.is-active span:nth-child(1) {
     margin-left: -5px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -4929,18 +4925,7 @@ li .drop-down-container {
         }
     }
 }
-//*Stop Custom*//
-.nav-item a.is-tab:hover,
-a.nav-item.is-tab:hover {
-    border-bottom: 1px solid green;
-    border-top: 1px solid transparent;
-}
-.nav-item a.is-tab.is-active,
-a.nav-item.is-tab.is-active {
-    border-bottom: 3px solid #97cd76;
-    border-top: 3px solid transparent;
-    color: #97cd76;
-}
+
 @media screen and (max-width: 768px) {
     .nav-menu {
         background: #fff;
@@ -5518,13 +5503,12 @@ a.panel-block:hover {
 .hero.is-dark a.nav-item,
 .hero.is-dark .nav-item a:not(.button) {
     color: rgba(245,247,250,1);
-    font-weight: 500;
 }
 .hero.is-dark a.nav-item:hover,
 .hero.is-dark a.nav-item.is-active,
 .hero.is-dark .nav-item a:not(.button):hover,
 .hero.is-dark .nav-item a:not(.button).is-active {
-    color: #f5f7fa;
+    color: ghostwhite;
 }
 .hero.is-dark .tabs a {
     color: #f5f7fa;
