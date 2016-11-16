@@ -1332,8 +1332,7 @@ a.container {
 .pagination a.is-medium {
     font-size: 18px;
     height: 40px;
-    padding-left: 14px;
-    padding-right: 14px;
+    
 }
 .button.is-large,
 .pagination a.is-large {
@@ -2492,18 +2491,6 @@ h2:first-child {
 .title + .subtitle {
     margin-top: -10px;
 }
-.title.is-1 {
-    font-size: 48px;
-}
-.title.is-1 code {
-    font-size: 40px;
-}
-.title.is-2 {
-    font-size: 40px;
-}
-.title.is-2 code {
-    font-size: 28px;
-}
 .title.is-3 {
     font-size: 28px;
 }
@@ -2641,7 +2628,7 @@ h2:first-child {
     }
     
     .title.is-3 {
-        font-size: 26px;
+        font-size: 24px;
     }
     
     .title.is-3 code {
@@ -2649,7 +2636,7 @@ h2:first-child {
     }
     
     .title.is-4 {
-        font-size: 22px;
+        font-size: 20px;
     }
     
     .title.is-4 code {
@@ -2719,7 +2706,7 @@ h2:first-child {
     }
     
     .subtitle.is-3 {
-        font-size: 26px;
+        font-size: 20px;
     }
     
     .subtitle.is-3 code {
@@ -2734,7 +2721,7 @@ h2:first-child {
         font-size: 16px;
     }
     
-    .subtitle.is-5 {
+    .subtitle.is-5,.title-text.is-5 {
         font-size: 16px;
     }
     
@@ -4569,6 +4556,7 @@ h2:first-child {
     justify-content: center;
     padding: 10px;
     -webkit-transition: color .2s ease;
+    transition: color .2s ease;
 }
 .nav-item a {
     -webkit-box-flex: 1;
@@ -4616,7 +4604,7 @@ a.nav-item.is-active {
 }
 .nav-item a.is-tab,
 a.nav-item.is-tab {
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid;
     border-top: 1px solid transparent;
     padding-left: 12px;
     padding-right: 12px;
@@ -4626,7 +4614,7 @@ a.nav-item.is-tab {
 }
 #contactbutton {
     background-color: #97cd76;
-    border-radius: 4px;
+    
     color: #fff;
     line-height: 20px;
     margin-top: 1px;
@@ -4635,6 +4623,7 @@ a.nav-item.is-tab {
     -moz-transition: all .3s ease-out;
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
+    border-bottom: transparent;
 }
 #contactbutton:hover {
     background-color: white;
@@ -4683,9 +4672,7 @@ a.nav-item.is-tab {
     margin-bottom: 10px;
     margin-top: -10px;
 }
-.button ~ .box:hover {
-    background: green;
-}
+
 .card-words {
     color: grey;
     
@@ -4699,17 +4686,6 @@ a.nav-item.is-tab {
 }
 .circlepic.hardwarepic {
     background-image: url(../images/server_pic2.jpg);
-}
-.contact-button {
-    background-color: inherit;
-    color: inherit;
-    border-radius: 4px 4px 0px 0px;
-    transition: color,
-    background-color .2s ease;
-}
-.contact-button:hover {
-    color: white;
-    background-color:#97cd76;
 }
 .content h2{
     text-align: center;
@@ -4945,9 +4921,15 @@ li .drop-down-container {
     .nav-menu .nav-item {       
         padding: 10px;
         text-align: center;
+        font-size: 16px;
+        font-weight: 600;
     }
     .nav-menu.is-active{       
         left: 0px;
+    }
+    .box{
+        padding-left: 5px;
+        padding-right: 5px;
     }
         
 }
@@ -5489,11 +5471,10 @@ a.panel-block:hover {
 }
 @media screen and (max-width: 768px) {
     .hero.is-dark .nav-menu {
-        background: #69707a;
-    }
-    /* .hero-body{
-    display: none;
-  }*/
+       background: #97cd76;
+    
+  }
+        
     #logo {
         display: none;
     }
@@ -5509,7 +5490,7 @@ a.panel-block:hover {
 .hero.is-dark a.nav-item.is-active,
 .hero.is-dark .nav-item a:not(.button):hover,
 .hero.is-dark .nav-item a:not(.button).is-active {
-    color: ghostwhite;
+    color: #97cd76;
 }
 .hero.is-dark .tabs a {
     color: #f5f7fa;
