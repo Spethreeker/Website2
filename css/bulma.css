@@ -4927,26 +4927,27 @@ li .drop-down-container {
 }
 
 @media screen and (max-width: 768px) {
-    .nav-menu {
-        background: #fff;
+    .nav-menu {      
         box-shadow: 0 4px 7px rgba(17,
         17,
         17,
         0.1);  
-        display: none;  
+        left: -200px;
         top: 100%;
         position: absolute;
         margin-left: auto;
         text-align: left;
         line-height: 2;
         color: white;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
     }
     .nav-menu .nav-item {       
         padding: 10px;
         text-align: center;
     }
-    .nav-menu.is-active {
-        display: block;
+    .nav-menu.is-active{       
+        left: 0px;
     }
         
 }
