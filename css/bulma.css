@@ -309,18 +309,12 @@ pre {
     font-family: "Source Code Pro", "Monaco", "Inconsolata", monospace;
     line-height: 1.25;
 }
-
-#inhouse {
-    color: #69707a;
-}
-
 body {
     color: #69707a;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.428571428571429;
 }
-
 a {
     color: #fff;
     cursor: pointer;
@@ -328,12 +322,9 @@ a {
     -webkit-transition: none 86ms ease-out;
     transition: none 86ms ease-out;
 }
-
 a:hover {
     color: #222324;
 }
-
-
 }
 .topbar {
     background-color: black;
@@ -527,12 +518,11 @@ table th {
         250,
         0.2);
         color:#f5f7fa;
-        }
+    }
      .hero.is-dark .nav-menu {
        background: #97cd76;
     
-  }
-        
+    }     
     #logo {
         display: none;
     }
@@ -555,66 +545,52 @@ table th {
     .level-left + .level-right {
         margin-top: 20px;
     }
-        .title {
+    .title {
         color: #222324;
         font-size: 26px;
         line-height: 1;
         font-weight: 400;
     }
-    
     .title code {
         display: inline-block;
         font-size: 28px;
-    }
-    
+    }  
     .title strong {
         color: inherit;
-    }
-    
+    } 
     .title + .highlight {
         margin-top: -10px;
     }
-    
     .title + .subtitle {
         margin-top: -10px;
     }
-    
     .title.is-1 {
         font-size: 46px;
     }
-    
     .title.is-1 code {
         font-size: 38px;
     }
-    
     .title.is-2 {
         font-size: 38px;
     }
-    
     .title.is-2 code {
         font-size: 26px;
     }
-    
     .title.is-3 {
         font-size: 24px;
     }
-    
     .title.is-3 code {
         font-size: 22px;
     }
-    
     .title.is-4 {
         font-size: 20px;
     }
-    
     .title.is-4 code {
         font-size: 16px;
     }
-    
     .title.is-5 {
         font-size: 16px;
     }
-    
     .title.is-5 code {
         font-size: 12px;
     }
@@ -746,24 +722,7 @@ table th {
         background-color: #69707a !important;
         color: #fff !important;
     }
-     .is-flex-desktop {
-        display: -webkit-box !important;
-        display: -webkit-flex !important;
-        display: -ms-flexbox !important;
-        display: flex !important;
-    }
-    .is-inline-desktop {
-        display: inline !important;
-    }
-    .is-inline-block-desktop {
-        display: inline-block !important;
-    }
-    .is-inline-flex-desktop {
-        display: -webkit-inline-box !important;
-        display: -webkit-inline-flex !important;
-        display: -ms-inline-flexbox !important;
-        display: inline-flex !important;
-    }
+    
     .is-hidden-desktop {
         display: none !important;
     }
@@ -824,7 +783,6 @@ table th {
         flex: none;
         width: 50%;
     }
-    
     .column.is-one-third-desktop {
         -webkit-box-flex: 0;
         -webkit-flex: none;
@@ -832,7 +790,6 @@ table th {
         flex: none;
         width: 33.3333%;
     }
-    
     .column.is-one-quarter-desktop {
         -webkit-box-flex: 0;
         -webkit-flex: none;
@@ -840,27 +797,22 @@ table th {
         flex: none;
         width: 25%;
     }
-    
     .column.is-offset-three-quarters-desktop {
         margin-left: 75%;
-    }
-    
+    }  
     .column.is-offset-two-thirds-desktop {
         margin-left: 66.6666%;
     }
     
     .column.is-offset-half-desktop {
         margin-left: 50%;
-    }
-    
+    }   
     .column.is-offset-one-third-desktop {
         margin-left: 33.3333%;
     }
-    
     .column.is-offset-one-quarter-desktop {
         margin-left: 25%;
     }
-    
     .column.is-1-desktop {
         -webkit-box-flex: 0;
         -webkit-flex: none;
@@ -868,11 +820,9 @@ table th {
         flex: none;
         width: 8.33333%;
     }
-    
     .column.is-offset-1-desktop {
         margin-left: 8.33333%;
     }
-    
     .column.is-2-desktop {
         -webkit-box-flex: 0;
         -webkit-flex: none;
@@ -880,11 +830,9 @@ table th {
         flex: none;
         width: 16.66667%;
     }
-    
     .column.is-offset-2-desktop {
         margin-left: 16.66667%;
     }
-    
     .column.is-3-desktop {
         -webkit-box-flex: 0;
         -webkit-flex: none;
@@ -892,7 +840,6 @@ table th {
         flex: none;
         width: 25%;
     }
-    
     .column.is-offset-3-desktop {
         margin-left: 25%;
     }
