@@ -1082,7 +1082,7 @@ a.container {
     border-left: 5px solid #d3d6db;
     padding: 1.5em;
 }
-.content h1 {
+/*.content h1 {
     font-size: 2em;
 }
 .content h2 {
@@ -1099,7 +1099,7 @@ a.container {
 }
 .content h6 {
     font-size: 1em;
-}
+}*/
 h2:first-child {
     padding-top: 15px;
 }
@@ -3690,13 +3690,15 @@ a.panel-block:hover {
        left: -200px;
         top: 100%;
         position: absolute;
-        
         text-align: left;
         line-height: 2;
         color: white;
         z-index: 0;
         -webkit-transition: all .3s ease;
         transition: all .3s ease;
+    }
+    .nav-menu li{
+        border-bottom: 1px solid;
     }
     .nav-menu .nav-item {       
         padding: 10px;
