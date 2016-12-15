@@ -19,8 +19,6 @@ module.exports = function(grunt) {
 	}
 });
 
-	
-
 	//load the plugin that provides the "uglify" task.
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 
