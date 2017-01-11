@@ -2,8 +2,6 @@ module.exports = function(grunt) {
 
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-		
-		
 		cssmin: {
 		my_target: {
 			files:[{
@@ -12,13 +10,10 @@ module.exports = function(grunt) {
 				src: ['*.css', '!*.min.css'],
 				dest: 'css/',
 				ext: '.min.css'
-
 			}]
-			
 		}
 	}
 });
-
 	//load the plugin that provides the "uglify" task.
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 
