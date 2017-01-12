@@ -1,0 +1,24 @@
+{
+  "name": "website2",
+  "version": "1.0.0",
+  "description": "Description",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spethreeker/Website2.git"
+  },
+  "author": "spencer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spethreeker/Website2/issues"
+  },
+  "homepage": "https://github.com/Spethreeker/Website2#readme"
+}
