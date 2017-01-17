@@ -2947,22 +2947,8 @@ a.nav-item.is-tab {
 #address {
     margin-bottom: 0px;
 }
-//*#contactbutton {
-    background-color: #97cd76;
-    color: #fff;
-    line-height: 20px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    -webkit-transition: all .3s ease-out;
-    -moz-transition: all .3s ease-out;
-    -o-transition: all .3s ease-out;
-    transition: all .3s ease-out;
-    border-bottom: transparent;
-}*//
-#contactbutton:hover {
-    background-color: white;
-    color: #97cd76;
-}
+
+
 }
 #control-description {
     color: black;
@@ -3033,6 +3019,7 @@ a.nav-item.is-tab {
 }
 .drop-down {
     width: 134.5px;
+    border-radius: 5px;
 }
 .footer-picture {
     max-height: 50px;
@@ -3150,7 +3137,6 @@ li::selection {
 li .drop-down-container {
     display: none;
     position: absolute;
-    border-radius: 1px;
     margin-left: 5px;
 }
 .nav-left {
@@ -4142,11 +4128,11 @@ a.panel-block:hover {
     }
     li .drop-down .button {
         width: 100%;
-        border-radius: 0px;
         white-space: normal;
         height: 55px;
         border-color: #97cd76;
         line-height: 1.2;
+        border-radius: 0px;
     }
     li:hover > .drop-down-container {
         -webkit-perspective: 1000px;
