@@ -325,7 +325,7 @@ a {
 a:hover {
     color: #222324;
 }
-}
+
 .topbar {
     background-color: black;
 }
@@ -447,7 +447,6 @@ table th {
 .box {
     background: #fff;
     border-radius: 5px;
-    //*box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1), 0 0 0 1px rgba(17, 17, 17, 0.1);*//
     display: block;
     padding: 20px;
 }
@@ -1300,11 +1299,6 @@ h2:first-child {
     display: block;
     width: 100%;
 }
-.input.is-inline,
-.is-inline.textarea {
-    display: inline;
-    width: auto;
-}
 .textarea {
     display: block;
     line-height: 1.2;
@@ -1374,7 +1368,6 @@ h2:first-child {
     padding-left: 8px;
     padding-right: 8px;
     position: relative;
-    vertical-align: top;
     cursor: pointer;
     display: block;
     outline: none;
@@ -1804,7 +1797,7 @@ h2:first-child {
 }
 .image.is-256x256 {
     height: 256px;
-    width: 256px: ;
+    width: 256px;
 }
 .notification {
     background: #f5f7fa;
@@ -3039,7 +3032,7 @@ a.nav-item.is-tab {
     background-color .6s ease-out;
     transition: color,
     background-color .6s ease-out;
-    //* Changes height and hover on touch*//
+    /* Changes height and hover on touch */
 }
 .iphone-features:focus {
     outline-color: #97cd76 !important;
@@ -3060,7 +3053,6 @@ a.nav-item.is-tab {
 .index-picture:hover {
     opacity: 0.8;
 }
-.index-category {}
 .iphone-repair-background {
     background-image:url("../images/iphone_repair_background.jpg");
     background-size:cover;
@@ -3228,7 +3220,6 @@ li .drop-down-container {
     vertical-align: top;
     width: 16px;
     color: #aeb1b5;
-    float: left;
     margin: 0 4px 0 -2px;
 }
 .panel-icon .fa {
@@ -3657,7 +3648,7 @@ a.panel-block:hover {
     .is-hidden-mobile {
         display: none !important;
     }
-    .level-item:not(: last-child) {
+    .level-item:not(:last-child) {
         margin-bottom: 10px;
     }
     .nav-item {
@@ -3713,9 +3704,6 @@ a.panel-block:hover {
     }
     .pagination ul {
         margin-top: 10px;
-    }
-    .hero .nav {
-       
     }
     .hero.is-dark .nav-toggle span {
         background: #97cd76;
