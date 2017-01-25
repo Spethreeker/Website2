@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="97cd76">
     <meta name="description" content="The best built computers in the Mississippi Delta, Cleveland, Mississippi.">
-    <title>Custom Built Computers</title>
+    <title>Custom-Built Computers</title>
     <link rel="stylesheet" href="../css/bulma.css" media="screen" title="no title" charset="utf-8">
     <script src="https://use.fontawesome.com/dc54be7162.js"></script>
     <link rel="icon" type="image/png" href="../images/logos/32x32.png">
@@ -21,11 +21,11 @@
     <section class="hero is-dark is-bold"> 
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <img src="../images/protech-the-computer-guys.png" alt="Our Protech logo" title="Protech, The Computer Guys" id="logo">
+                    <img style="display: none;" src="../images/protech-the-computer-guys.png" alt="Our Protech logo" title="Protech, The Computer Guys" id="logo">
                 </div>
             </div>
             <div class="is-hidden-desktop">
-                <p class="title has-text-centered" id="margin-top-10px">Protech: The Computer Guys</p>
+                <p class="title has-text-centered is-hidden" id="margin-top-10px">Protech: The Computer Guys</p>
             </div>
             <p class="subtitle has-text-centered">109 South Davis Avenue &#8901; Cleveland, MS &#8901; 662-545-3465</p>
             <div class="hero-foot">
@@ -63,31 +63,38 @@
                 </div>
             </div>
     </section>
-    <div class="container notification is-light">
+    <div class="container notification">
+        <h1 class="has-text-centered title">We build the best computers</h1>
+    <p class=" has-text-centered subtitle">What do you plan to do with yours?</p>
         
-
-
-
-
-
-
-
+        <div class="columns is-vcentered is-mobile">
+            <button class="column button is-light is-large" id="work-button">
+                <h1 class="title">Work</h1>
+            </button>
+            <button class="column button is-light is-large" id="play-button">
+                <h1 class="title">Play</h1>
+            </button>
+            <button class="column button is-light is-large" id="both-button">
+                <h1 class="title">Both</h1>
+            </button>
+        </div>
+        
+    <div class="notification is-white has-text-centered is-hidden" id="budget_block">
+        <h1 class="title">Whats your budget?</h1>
+        <div class="columns is-mobile">
+            <div class="column button is-light is-large">
+                <h1 class="title">$400</h1>
+            </div>
+        </div>
+    </div>
+            <div class="has-text-centered button"><h1>See all</h1></div>
 
         <a class="button is-pulled-left" href="index.html">Back to In-Store</a>
     </div>
-
-
-
-
-
 </body>
 <footer class="hero is-dark is-bold">
     <div class="">
         <div class="container">
-
-
-
-
             <div class="columns is-mobile is-multiline">
                 <div class="column">
                     <h2 class="subtitle is-marginless menu-label">In-Store Services</h2>
@@ -96,7 +103,6 @@
                         <li><a href="computer_repair.html">Macbook and Laptop Repair</a></li>
                         <li><a href="computer_repair.html">PC and Mac Repair</a></li>
                         <li><a href="troubleshooting.html">Troubleshooting</a></li>
-
                     </ul>
                 </div>
                 <div class="column">
@@ -122,7 +128,11 @@
         </div>
     </div>
 </footer>
-<script>
+<script defer>
+    var work = document.getElementById("work-button"),
+    play = document.getElementById("play-button"), 
+    both = document.getElementById("both-button");
+
     function navtoggle() {
         var d = document.getElementById("navbar");
         var e = document.getElementById("navtoggle");
@@ -134,6 +144,17 @@
             e.classList.add("is-active");
         }
     }
+    function showBudget() {
+        var f = document.getElementById("budget_block");
+        if (f.classList.contains("is-hidden")) {
+            f.classList.remove("is-hidden");
+        } else {
+            f.classList.add("is-hidden");
+        }
+    }
+    
+        
+    
 </script>
 </body>
 

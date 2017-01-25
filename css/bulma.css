@@ -499,6 +499,8 @@ a.container {
 .button:hover,
 .pagination a:hover {
     border-color: #aeb1b5;
+}.button.is-light.is-bordered{
+    border: 1px solid black;
 }
 .button:active,
 .pagination a:active,
@@ -666,7 +668,7 @@ a.container {
 .button.is-light,
 .pagination a.is-light {
     background: #f5f7fa;
-    border-color: transparent;
+    
     color: #69707a;
     transition: background .3 ease;
 }
@@ -1008,7 +1010,7 @@ a.container {
     padding-right: 6px;
 }
 .button.is-medium,
-.pagination a.is-medium {
+.pagination a.is-mefdium {
     font-size: 18px;
     height: 40px;
     
