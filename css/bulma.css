@@ -4116,13 +4116,17 @@ a.panel-block:hover {
     li:hover >.drop-down-container {
         display: block;
     }
-    li .drop-down .button {
+     li .drop-down .button {
         width: 100%;
         white-space: normal;
         height: 55px;
-        border-color: #97cd76;
         line-height: 1.2;
-        border-radius: 0px;
+        border-radius: 2px;
+        border: 0.5px solid white;
+    }
+    li .drop-down .button:hover{
+        border-color: #97cd76;
+        color: #97cd76;
     }
     li:hover > .drop-down-container {
         -webkit-perspective: 1000px;
