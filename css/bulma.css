@@ -3626,6 +3626,7 @@ a.panel-block:hover {
 .footer a:visited:not(.icon):hover {
     border-bottom-color: #1fc8db;
 }
+
 @media screen and (max-width: 768px) {
     .control-label {
         margin-bottom: 5px;
@@ -3671,9 +3672,6 @@ a.panel-block:hover {
         -webkit-transition: all .3s ease;
         transition: all .3s ease;
     }
-    .nav-menu li{
-        border-bottom: 1px solid;
-    }
     .nav-menu .nav-item {       
         padding: 10px;
         text-align: center;
@@ -3683,10 +3681,10 @@ a.panel-block:hover {
     .nav-menu.is-active{       
         left: 0px;
     }
-    .box{
+    /*.box{
         padding-left: 5px;
         padding-right: 5px;
-    }
+    }*/
     .pagination {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -4641,6 +4639,117 @@ a.panel-block:hover {
     }
     .is-hidden-desktop-only {
         display: none !important;
+    }
+}
+@media screen and (max-width: 345px) {
+    .title {
+        color: #222324;
+        font-size: 22px;
+        line-height: 1;
+        font-weight: 400;
+    }
+    .title code {
+        display: inline-block;
+        font-size: 24px;
+    }  
+    .title strong {
+        color: inherit;
+    } 
+    .title + .highlight {
+        margin-top: -10px;
+    }
+    .title + .subtitle {
+        margin-top: -10px;
+    }
+    .title.is-1 {
+        font-size: 42px;
+    }
+    .title.is-1 code {
+        font-size: 34px;
+    }
+    .title.is-2 {
+        font-size: 34px;
+    }
+    .title.is-2 code {
+        font-size: 22px;
+    }
+    .title.is-3 {
+        font-size: 20px;
+    }
+    .title.is-3 code {
+        font-size: 18px;
+    }
+    .title.is-4 {
+        font-size: 16px;
+    }
+    .title.is-4 code {
+        font-size: 12px;
+    }
+    .title.is-normal {
+        font-weight: 400;
+    }   
+    .title.is-normal strong {
+        font-weight: 700;
+    }
+    .subtitle {
+        color: #69707a;
+        font-size: 16px;
+        line-height: 1.125;
+    }
+    .subtitle code {
+        border-radius: 3px;
+        display: inline-block;
+        font-size: 10px;
+        padding: 2px 3px;
+        vertical-align: top;
+    }
+    .subtitle strong {
+        color: #222324;
+    }
+    .subtitle + .title {
+        margin-top: -20px;
+    }
+    .subtitle.is-1 {
+        font-size: 38px;
+    }
+    .subtitle.is-1 code {
+        font-size: 34px;
+    }
+    .subtitle.is-2 {
+        font-size: 34px;
+    }
+    .subtitle.is-2 code {
+        font-size: 24px;
+    }
+    .subtitle.is-3 {
+        font-size: 16px;
+    }
+    .subtitle.is-3 code {
+        font-size: 22px;
+    }
+    .subtitle.is-4 {
+        font-size: 20px;
+    }
+    .subtitle.is-4 code {
+        font-size: 16px;
+    }
+    .subtitle.is-5,.title-text.is-5 {
+        font-size: 10px;
+    }
+    .subtitle.is-5 code {
+        font-size: 8px;
+    }
+    .subtitle.is-6 {
+        font-size: 8px;
+    }
+    .subtitle.is-6 code {
+        font-size: 8px;
+    }
+    .subtitle.is-normal {
+        font-weight: 400;
+    }
+    .subtitle.is-normal strong {
+        font-weight: 700;
     }
 }
 /*# sourceMappingURL=bulma.css.map */
