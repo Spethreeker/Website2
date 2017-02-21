@@ -2011,7 +2011,7 @@ h2:first-child {
 }
 .title {
     color: #222324;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 1;
 }
 .title code {
@@ -2934,8 +2934,8 @@ a.nav-item.is-active {
 }
 .nav-item a.is-tab,
 a.nav-item.is-tab {
-    border: 0.5px solid;
-    border-radius: 5px;
+    /*border: 0.5px solid;
+    border-radius: 5px;*/
     padding: 12px 12px;
     margin-left: 5px;
 }
@@ -3093,7 +3093,7 @@ a.nav-item.is-tab {
     -webkit-box-shadow: 0 0 4px #ccc;
     box-shadow: 0 0 4px #ccc;
 }
-.service {
+a.service {
     background: #97cd76;
     border-color: transparent;
     color: white;
@@ -3116,9 +3116,9 @@ a.nav-item.is-tab {
     .0);
     color: white;
 }
-.notification.is-success.service:hover {
+/*a.service:hover{
     background: #a5d489;
-}
+}*/
 .notification.is-success.service:hover .button {
     background: #a5d489;
 }
@@ -4113,14 +4113,15 @@ a.panel-block:hover {
 @media screen and (min-width: 980px) {
     li:hover >.drop-down-container {
         display: block;
+        margin-top: 5px;
     }
      li .drop-down .button {
         width: 100%;
         white-space: normal;
         height: 55px;
         line-height: 1.2;
-        border-radius: 2px;
-        border: 0.5px solid white;
+        border-radius: 0px;
+        border: 0px solid white;
     }
     li .drop-down .button:hover{
         border-color: #97cd76;
