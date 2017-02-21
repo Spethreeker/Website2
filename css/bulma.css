@@ -2901,6 +2901,10 @@ h2:first-child {
     padding: 10px;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
+    box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1), 0 0 0 1px rgba(256, 256, 256, 0.1);
+    border-radius: 2px;
+
+    
 }
 .nav-item a {
     -webkit-box-flex: 1;
@@ -4581,6 +4585,7 @@ a.panel-block:hover {
         -webkit-justify-content: flex-end;
         -ms-flex-pack: end;
         justify-content: flex-end;
+        
     }
     .pagination > a:not(:first-child) {
         -webkit-box-ordinal-group: 2;
