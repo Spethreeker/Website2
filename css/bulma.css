@@ -72,7 +72,6 @@ summary {
     vertical-align: baseline;
     background: transparent;
 }
-
 article,
 aside,
 figure,
@@ -87,6 +86,7 @@ summary {
 
 html {
     box-sizing: border-box;
+    overflow-y: scroll;
 }
 
 *,
@@ -100,11 +100,6 @@ object,
 embed {
     max-width: 100%;
 }
-
-html {
-    overflow-y: scroll;
-}
-
 ul {
     list-style: none;
 }
@@ -143,6 +138,8 @@ dfn[title] {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    font-size: inherit;
+    font: 100%;
 }
 
 th {
@@ -189,47 +186,34 @@ input,
 textarea {
     font: 99% sans-serif;
 }
-
-table {
-    font-size: inherit;
-    font: 100%;
-}
-
 small {
     font-size: 85%;
 }
-
 strong {
     font-weight: bold;
 }
-
 td,
 td img {
     vertical-align: top;
 }
-
 sub,
 sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
 }
-
 sup {
     top: -0.5em;
 }
-
 sub {
     bottom: -0.25em;
 }
-
 pre,
 code,
 kbd,
 samp {
     font-family: monospace, sans-serif;
 }
-
 label,
 input[type=button],
 input[type=submit],
@@ -237,20 +221,17 @@ input[type=file],
 button {
     cursor: pointer;
 }
-
 button,
 input,
 select,
 textarea {
     margin: 0;
 }
-
 button,
 input[type=button] {
     width: auto;
     overflow: visible;
 }
-
 @-webkit-keyframes spin-around {
     from {
         -webkit-transform: rotate(0deg);
@@ -2901,10 +2882,7 @@ h2:first-child {
     padding: 10px;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
-    box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1), 0 0 0 1px rgba(256, 256, 256, 0.1);
-    border-radius: 2px;
 
-    
 }
 .nav-item a {
     -webkit-box-flex: 1;
@@ -2938,8 +2916,9 @@ a.nav-item.is-active {
 }
 .nav-item a.is-tab,
 a.nav-item.is-tab {
-    /*border: 0.5px solid;
-    border-radius: 5px;*/
+    /*border: 0.5px solid;*/
+   
+    border-radius: 1px;
     padding: 12px 12px;
     margin-left: 5px;
 }
@@ -4585,7 +4564,7 @@ a.panel-block:hover {
         -webkit-justify-content: flex-end;
         -ms-flex-pack: end;
         justify-content: flex-end;
-        
+
     }
     .pagination > a:not(:first-child) {
         -webkit-box-ordinal-group: 2;
