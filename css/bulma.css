@@ -2205,7 +2205,7 @@ h2:first-child {
     height: 50px;
     position: relative;
     width: 80px;
-    border: 0.5px solid;
+    /*border: 0.5px solid;*/
     border-radius: 4px;
     border-color: #d3d6db;
 }
@@ -2998,6 +2998,7 @@ a.nav-item.is-tab {
 .drop-down {
     width: 134.5px;
     border-radius: 5px;
+  
 }
 .footer-picture {
     max-height: 50px;
@@ -3644,7 +3645,9 @@ a.panel-block:hover {
         justify-content: flex-start;
     }
     .nav-menu {      
-        box-shadow: 0 4px 7px rgba(17,17,17,0.1);  
+        /*box-shadow: 0 4px 7px rgba(17,17,17,0.1);  */
+    box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1), 0 0 0 1px rgba(17, 17, 17, 0.1);
+        padding-left:10px;
         left: -200px;
         top: 100%;
         position: absolute;
@@ -4735,6 +4738,34 @@ a.panel-block:hover {
     }
     .subtitle.is-normal strong {
         font-weight: 700;
+    }
+}
+.fade-in-up{
+    animation-name: fadeinup;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    
+}
+.column.fade-in-up:nth-child(2){
+    animation-delay: .1s;
+}
+.column.fade-in-up:nth-child(3){
+    animation-delay: .14s;
+}
+.column.fade-in-up:nth-child(4){
+    animation-delay: .23s;
+}
+.delay-a-little{
+    animation-delay: .28s;
+}
+@keyframes fadeinup {
+    0%{
+        opacity: 0;
+        transform: translate(0, 20px);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
     }
 }
 /*# sourceMappingURL=bulma.css.map */
