@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
 html,
 body,
 body div,
@@ -2982,13 +2983,6 @@ a.nav-item.is-tab {
     text-align: left;
     font-weight: 400;
 }
-.circlepic.alarmpic {
-    background-image: url("../images/simonxt.jpg");
-    background-size: 100%
-}
-.circlepic.hardwarepic {
-    background-image: url(../images/server_pic2.jpg);
-}
 .content h2{
     text-align: center;
 }
@@ -4101,17 +4095,18 @@ a.panel-block:hover {
         display: block;
         margin-top: 5px;
     }
-     li .drop-down .button {
+     li .drop-down .button.is-success {
         width: 100%;
         white-space: normal;
         height: 55px;
         line-height: 1.2;
         border-radius: 0px;
         border: 0px solid white;
+        color: white;
     }
-    li .drop-down .button:hover{
+    li .drop-down .button.is-success:hover{
         border-color: #97cd76;
-        color: #97cd76;
+        background: #5d636c!important;
     }
     li:hover > .drop-down-container {
         -webkit-perspective: 1000px;
