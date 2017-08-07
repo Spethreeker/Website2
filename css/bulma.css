@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
+
 html,
 body,
 body div,
@@ -2947,7 +2948,7 @@ a.nav-item.is-tab {
     display: none;
 }
 #logo {
-    height: 130px;
+    max-height: 130px;
 }
 #morepadding {
     padding-top: 20px;
@@ -3698,9 +3699,7 @@ a.panel-block:hover {
     .hero.is-dark .nav-menu {
        background: #97cd76;  
     }     
-    #logo {
-        display: none;
-    }
+   
     #levelitem {
         display: block;
     }

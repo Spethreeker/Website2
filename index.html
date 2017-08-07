@@ -11,7 +11,15 @@
     <link rel="icon" type="image/png" href="images/logos/32x32.png">
     <script src="https://use.fontawesome.com/7b542c7aed.js"></script>   
     <style>
-		@import 'https://fonts.googleapis.com/css?family=Raleway:300,400';
+        @import 'https://fonts.googleapis.com/css?family=Raleway:300,400';
+        @media screen and (min-width:999px){
+            #phonenumber{
+                padding-top: 50px;
+            }
+        }
+        #phonenumber{
+            padding-top: 20px;
+        }
 	</style>
     <!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -21,17 +29,21 @@
     <section>
         <div class="hero is-dark is-bold">
             <div class="hero-body">
-                <div class="container has-text-centered">
-                    <img src="images/protech-the-computer-guys.png" alt="Our Protech logo" title="Protech, The Computer Guys" >
+                <div class="columns is-v-centered">
+                    <div class="column is-4"></div>
+                  <div class="column has-text-centered">
+                    <img class="image" id="logo" src="images/protech-the-computer-guys.png" alt="Our Protech logo" title="Protech, The Computer Guys" >
+                  </div>
+                  <div class="column has-text-centered" id="phonenumber">
+                    <h1 class="title is-4">Call us at <br class="is-hidden-touch">662-545-3465</h1>
+                  </div>  
                 </div>
             </div>
             <!--<div class="is-hidden-desktop">
                 <h1 class="title has-text-centered" id="margin-top-10px">Protech: The Computer Guys</h1>
             </div>-->
-                  
-            <div class="hero-foot ">
+            <div class="hero-foot">
                     <nav class="nav">
-                        
                         <div class="nav-toggle" onclick="navtoggle()" id="navtoggle">
                             <span></span>
                             <span></span>
