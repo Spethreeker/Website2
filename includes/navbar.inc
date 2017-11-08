@@ -19,29 +19,29 @@
                             <span></span>
                         </div>
                         <ul class="nav-right nav-menu" id="navbar">                
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab" href="index.html">Home</a></li> 
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-shopping-basket" aria-hidden="true"></i></span><a class="nav-item is-tab" href="instore/index.html">In-Store Services </a>
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab" href="index.php">Home</a></li> 
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-shopping-basket" aria-hidden="true"></i></span><a class="nav-item is-tab" href="instore/index.php">In-Store Services</a>
                                 <div class="drop-down-container">
                                     <ul class="drop-down is-overlay">
-                                        <li><a class="button is-success" href="instore/cleaning.html">PC/Mac Cleaning</a></li>
-                                        <li><a class="button is-success" href="instore/computer_repair.html">PC/Mac Repair</a></li>
-                                        <li><a class="button is-success" href="instore/data.html">Data Transfer/Recovery</a></li>
-                                        <li><a class="button is-success" href="instore/iphone_repair.html">iPhone Repair</a></li>
+                                        <li><a class="button is-success" href="instore/cleaning.php">PC/Mac Cleaning</a></li>
+                                        <li><a class="button is-success" href="instore/computer_repair.php">PC/Mac Repair</a></li>
+                                        <li><a class="button is-success" href="instore/data.php">Data Transfer/Recovery</a></li>
+                                        <li><a class="button is-success" href="instore/iphone_repair.php">iPhone Repair</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-building" aria-hidden="true"></i></span><a class="nav-item is-tab">Buisness Services </a>
-                            <div class="drop-down-container">
-                                    <ul class="drop-down">
-                                        <li><a class="button is-success" target="_blank" href="http://voip.a-pro-tech.com">VoIP Customer Login</a></li>
-                                        
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab" href="location.html">Our Location</a></li>
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-phone" aria-hidden="true"></i></span><a class="nav-item is-tab is-link" href="http://www.voip.a-pro-tech.com">VoIP Login</a></li>
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-phone" aria-hidden="true"></i></span><a class="nav-item is-tab is-link" href="gps-login.html">GPS Login</a></li>
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-address-card-o" aria-hidden="true"></i></span><a class="nav-item is-tab" id=contactbutton href="../contact.html">Contact</a></li>
+                            
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab" href="location.php">Our Location</a></li>
+                           
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-building" aria-hidden="true"></i></span><a class="nav-item is-tab" href="gps-login.php">Client Services </a>
+                                <div class="drop-down-container">
+                                        <ul class="drop-down">
+                                            <li><span class="icon is-hidden-desktop"><i class="fa fa-phone" aria-hidden="true"></i></span><a class="button is-success" href="http://www.voip.a-pro-tech.com">VoIP Login</a></li>
+                                            <li><span class="icon is-hidden-desktop"><i class="fa fa-phone" aria-hidden="true"></i></span><a class="button is-success" href="gps-login.php">GPS Tracking Login</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            <li><span class="icon is-hidden-desktop"><i class="fa fa-address-card-o" aria-hidden="true"></i></span><a class="nav-item is-tab" id=contactbutton href="../contact.php">Contact</a></li>
                         </ul>
                     </nav>
                 

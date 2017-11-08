@@ -21,60 +21,10 @@
             padding-top: 20px;
         }
 	</style>
-    <!--[if lt IE 9]>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+  
 </head>
 <body>
-    <section>
-        <div class="hero is-dark is-bold">
-            <div class="hero-body">
-                <div class="columns is-v-centered">
-                    <div class="column is-4"></div>
-                  <div class="column has-text-centered">
-                    <img class="image" id="logo" src="images/protech-the-computer-guys.png" alt="Our Protech logo" title="Protech, The Computer Guys" >
-                  </div>
-                  <div class="column has-text-centered" id="phonenumber">
-                    <h1 class="title is-4">Call us at <br class="is-hidden-touch">662-545-3465</h1>
-                  </div>  
-                </div>
-            </div>
-            <div class="hero-foot">
-                    <nav class="nav">
-                        <div class="nav-toggle" onclick="navtoggle()" id="navtoggle">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <ul class="nav-right nav-menu" id="navbar">                
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab" href="index.html">Home</a></li> 
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-shopping-basket" aria-hidden="true"></i></span><a class="nav-item is-tab" href="instore/index.html">In-Store Services </a>
-                                <div class="drop-down-container">
-                                    <ul class="drop-down is-overlay">
-                                        <li><a class="button is-success" href="instore/cleaning.html">PC/Mac Cleaning</a></li>
-                                        <li><a class="button is-success" href="instore/computer_repair.html">PC/Mac Repair</a></li>
-                                        <li><a class="button is-success" href="instore/data.html">Data Transfer/Recovery</a></li>
-                                        <li><a class="button is-success" href="instore/iphone_repair.html">iPhone Repair</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-building" aria-hidden="true"></i></span><a class="nav-item is-tab">Buisness Services </a>
-                            <div class="drop-down-container">
-                                    <ul class="drop-down">
-                                        <li><a class="button is-success" target="_blank" href="http://voip.a-pro-tech.com">VoIP Customer Login</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab" href="location.html">Our Location</a></li>
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-phone" aria-hidden="true"></i></span><a class="nav-item is-tab is-link" href="http://www.voip.a-pro-tech.com">VoIP Login</a></li>
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-phone" aria-hidden="true"></i></span><a class="nav-item is-tab is-link" href="gps-login.html">GPS Login</a></li>
-                            <li><span class="icon is-hidden-desktop"><i class="fa fa-address-card-o" aria-hidden="true"></i></span><a class="nav-item is-tab" id=contactbutton href="../contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                
-            </div>
-        </div>
-    </section>
+    <?php include 'includes/navbar.inc';?>
     <section>
         <br>
         <div class="notification">
@@ -83,46 +33,46 @@
         <div class="container notification">
             <div class="columns is-multiline is-mobile has-text-centered" style="word-break: keep-all;">
                 <div class="column is-one-quarter-desktop is-half-mobile notification fade-in-up">
-                    <a class="desc" href="instore/cleaning.html">
+                    <a class="desc" href="instore/cleaning.php">
                         <div class="box index-category">
                             <h1 class="title is-4 has-text-centered">Computer<br class="break-mobile"> Cleaning</h1>
                             <figure class="image is-square"><img class="image index-picture" src="images/Computer_cleaning.jpg" alt="Cracked iPhone Repair"></figure>
                             <br>
-                            <a class="button is-dark is-medium title-text is-5" href="instore/cleaning.html">Learn More</a>
+                            <a class="button is-dark is-medium title-text is-5" href="instore/cleaning.php">Learn More</a>
                         </div>
                     </a>
                 </div>
                 <div class="column is-one-quarter-desktop is-half-mobile notification fade-in-up">
-                    <a class="desc" href="instore/iphone_repair.html">
+                    <a class="desc" href="instore/iphone_repair.php">
                         <div class="box index-category">
                             <h1 class="title is-4 has-text-centered">iPhone<br class="break-mobile"> Repair</h1>
                             <figure class="image is-square"><img class="image index-picture" src="images/iphone_repair_hand.jpg" alt="Cracked iPhone Repair" /></figure>
                             <br>
-                            <a class="button is-dark is-medium title-text is-5" href="instore/iphone_repair.html">Learn More</a>
+                            <a class="button is-dark is-medium title-text is-5" href="instore/iphone_repair.php">Learn More</a>
                         </div>
                     </a>
                 </div>
                 <div class="column is-one-quarter-desktop is-half-mobile notification fade-in-up">
-                    <a class="desc" href="mac/macbook_repair.html">
+                    <a class="desc" href="mac/macbook_repair.php">
                         <div class="box index-category">
                             <h1 class="title is-4 has-text-centered">Macbook<br class="break-mobile"> Repair</h1>
                             <figure class="image is-square index-picture">
                                 <img class="image index-picture" src="images/macbook-pro-retina.jpg" alt="macbook repair" />
                             </figure>
                             <br>
-                            <a class="button is-dark is-medium title-text is-5" href="alarms.html">Learn More</a>
+                            <a class="button is-dark is-medium title-text is-5" href="alarms.php">Learn More</a>
                         </div>
                     </a>
                 </div>
                 <div class="column is-one-quarter-desktop is-half-mobile notification fade-in-up">
-                    <a href="alarms.html" class="desc">
+                    <a href="alarms.php" class="desc">
                         <div class="box index-category">
                             <h1 class="title is-4 has-text-centered">Alarm<br class="break-mobile"> Systems</h1>
                             <figure class="image is-square has-text-centered">
                                 <img class="image index-picture" src="images/simonxt.jpg" alt="Alarm systems">
                             </figure>
                             <br>
-                            <a class="button is-dark is-medium title-text is-5" href="alarms.html">Learn More</a>
+                            <a class="button is-dark is-medium title-text is-5" href="alarms.php">Learn More</a>
                         </div>
                     </a>
                 </div>
@@ -174,17 +124,17 @@
                 <div class="column">
                     <h2 class="subtitle is-marginless">In-Store Services</h2>
                     <ul class="menu-list">
-                        <li><a href="instore/cleaning.html">PC and Mac Cleaning</a></li>
-                        <li><a href="instore/computer_repair.html">Macbook and Laptop Repair</a></li>
-                        <li><a href="instore/computer_repair.html">PC and Mac Repair</a></li>
-                        <li><a href="instore/troubleshooting.html">Troubleshooting</a></li>
+                        <li><a href="instore/cleaning.php">PC and Mac Cleaning</a></li>
+                        <li><a href="instore/computer_repair.php">Macbook and Laptop Repair</a></li>
+                        <li><a href="instore/computer_repair.php">PC and Mac Repair</a></li>
+                        <li><a href="instore/troubleshooting.php">Troubleshooting</a></li>
 
                     </ul>
                 </div>
                 <div class="column">
                     <h2 class="subtitle is-marginless">Home and Buisness Services</h2>
                     <ul class="menu-list">
-                        <li> <a href="../alarms.html">Alarm Systems</a></li>
+                        <li> <a href="alarms.php">Alarm Systems</a></li>
                     </ul>
                 </div>
             </div>

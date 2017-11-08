@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,44 +14,7 @@
 	<script src="https://use.fontawesome.com/dc54be7162.js"></script>
 </head>
 <body>
-	<div class="hero is-dark is-bold">
-		<div class="hero-body">
-			<div class="container has-text-centered">
-				<img src="../images/protech-the-computer-guys.png" alt="Our Protech logo" title="Protech, The Computer Guys" id="logo">
-			</div>
-		</div>
-		<div class="is-hidden-desktop">
-                <p class="title has-text-centered" id="margin-top-10px">Protech: The Computer Guys</p>
-            </div>
-            <p class="subtitle has-text-centered">109 South Davis Avenue &#8901; Cleveland, MS &#8901; 662-545-3465</p>
-            <div class="hero-foot">     
-				<nav class="nav">  
-					<ul class="nav-right nav-menu" id="navbar">
-                        <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab" href="../index.html">Home</a></li>
-                        <li><span class="icon is-hidden-desktop"><i class="fa fa-shopping-basket" aria-hidden="true"></i></span><a class="nav-item is-tab" href="index.html">In-Store Services</a>
-                            <div class="drop-down-container">
-                                <ul class="drop-down">
-                                    <li><a class="button is-success" href="cleaning.html">PC/Mac Cleaning</a></li>
-                                    <li><a class="button is-success" href="data.html">Data Transfer/Recovery</a></li>
-                                    <li><a class="button is-success" href="">PC/Mac Repair</a></li>
-                                    <li><a class="button is-success" href="iphone_repair.html">iPhone Repair</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><span class="icon is-hidden-desktop"><i class="fa fa-building" aria-hidden="true"></i></span><a class="nav-item is-tab">Buisness Services</a></li>
-                        <li><span class="icon is-hidden-desktop"><i class="fa fa-home" aria-hidden="true"></i></span><a class="nav-item is-tab" href="../location.html">Our Location</a></li>
-                             <li><span class="icon is-hidden-desktop"><i class="fa fa-phone" aria-hidden="true"></i></span><a class="nav-item is-tab is-link" href="http://www.voip.a-pro-tech.com">VoIP Login</a></li>                       
-					    <li><span class="icon is-hidden-desktop"><i class="fa fa-address-card-o" aria-hidden="true"></i></span><a class="nav-item is-tab" id=contactbutton href="../contact.html">Contact</a></li>
-					</ul>    
-					<div class="nav-toggle" onclick="navtoggle()" id="navtoggle">
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
-				</nav>
-                   
-                </div>
-		</div>
+<?php include '../includes/instore-navbar.inc';?>
 	<br>
 	<div class="container notification no-border-radius">
 		<div class="has-text-centered is-light">
